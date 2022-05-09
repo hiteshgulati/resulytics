@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="282" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\ajaykumar35\onedrive - deloitte (o365d)\atom-dc-coa\predict old is acctdesconly workflow.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>51052</Port>
+          <JupyterGuidDir>4fe9f424f15f44c384b2b90500f6f7c9</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2021.2.2.45235</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"cell_type":"markdown","source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"cell_type":"code","source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","Package.installPackages(['pandas','numpy', 'torch', 'nltk', 'fuzzywuzzy', 'sklearn'])"],"execution_count":1,"outputs":[]},{"metadata":{},"cell_type":"code","source":["from ayx import Alteryx\n","\n","import torch\n","import torch.nn as nn\n","import torch.nn.functional as F\n","\n","import random\n","from tqdm import tqdm\n","import pandas as pd\n","\n","from fuzzywuzzy import fuzz\n","import numpy as np\n","from nltk.translate.bleu_score import sentence_bleu\n","from sklearn.model_selection import train_test_split\n","import os\n","import statistics\n","import re\n","import string"],"execution_count":2,"outputs":[]},{"metadata":{},"cell_type":"code","source":["SOS_token = 0\n","EOS_token = 1\n","device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n","\n","class Vocabulary:\n","\n","    def __init__(self, name):\n","        self.name = name\n","        self.word2index = {}\n","        self.word2count = {}\n","        self.index2word = {0: \"SOS\", 1: \"EOS\", 2: \"UNKNOWN\"}\n","        self.n_words = 3  # Count SOS, EOS, UNKNOWN\n","\n","    def add_sentence(self, sentence):\n","        for word in sentence.split(' '):\n","            self.add_word(word)\n","\n","    def add_word(self, word):\n","        if word not in self.word2index:\n","            self.word2index[word] = self.n_words\n","            self.word2count[word] = 1\n","            self.index2word[self.n_words] = word\n","            self.n_words += 1\n","        else:\n","            self.word2count[word] += 1\n","\n","            \n","def create_pairs(x_data, y_data):\n","\n","    x_data = x_data.reset_index(drop=True)\n","    y_data = y_data.reset_index(drop=True)\n","\n","    sources, targets = [], []\n","    \n","    for i in range(len(x_data)):\n","        source_level_text, target_level_text = [], []\n","\n","        for col in x_data:\n","            s_text = x_data.loc[i, col]\n","            source_level_text.append(s_text)\n","        for col in y_data:\n","            t_text = y_data.loc[i, col]\n","            target_level_text.append(t_text)\n","\n","        sources.append(source_level_text)\n","        targets.append(target_level_text)\n","\n","    pairs = list((zip(sources, targets)))\n","    \n","    return pairs\n","\n","def create_vocabulary(set1, set2, x_data, y_data):\n","    \n","    input_set = Vocabulary(set1)\n","    output_set = Vocabulary(set2)\n","    pairs = create_pairs(x_data, y_data)\n","\n","    for pair in pairs:\n","        full_source_string = \" \".join(pair[0])\n","        full_target_string = \" \".join(pair[1])\n","        input_set.add_sentence(full_source_string)\n","        output_set.add_sentence(full_target_string)\n","\n","    return input_set, output_set, pairs\n","\n","def indexes_from_sentence(set, sentence):\n","    sentence_indexes = []\n","    for word in sentence.split(' '):\n","        if word not in set.word2index:\n","            sentence_indexes.append(2)\n","        else:\n","            sentence_indexes.append(set.word2index[word])\n","            \n","    return sentence_indexes\n","\n","def tensor_from_sentence(set, sentence):\n","    indexes = indexes_from_sentence(set, sentence)\n","    indexes.append(EOS_token)\n","    return torch.tensor(indexes, dtype=torch.long, device=device).view(-1, 1)\n","\n","def tensors_from_text_list(text_list, input_set, output_set):\n","    tensors = []\n","    for level in text_list:\n","        print(level)\n","        tensor = tensor_from_sentence(input_set, level)\n","        tensors.append(tensor)\n","        \n","    return tensors\n","\n","def tensors_from_pair(pair, input_set, output_set):\n","    source = pair[0]\n","    target = pair[1]\n","    source_target_pairwise_tensors = []\n","\n","    for i in range(len(target)):\n","        source_level = source[i]\n","        target_level = target[i]\n","        source_level_tensor = tensor_from_sentence(input_set, source_level)\n","        target_level_tensor = tensor_from_sentence(output_set, target_level)\n","        source_target_pairwise_tensors.append((source_level_tensor, target_level_tensor))\n","\n","    return source_target_pairwise_tensors"],"execution_count":3,"outputs":[]},{"metadata":{},"cell_type":"code","source":["class Encoder(nn.Module):\n","\n","    def __init__(self, input_size, hidden_size):\n","        super(Encoder, self).__init__()\n","        self.hidden_size = hidden_size\n","        self.embedding = nn.Embedding(input_size, hidden_size)\n","        self.gru = nn.GRU(hidden_size, hidden_size)\n","\n","    def forward(self, input, hidden):\n","        embedded = self.embedding(input).view(1, 1, -1)\n","        output = embedded\n","        output, hidden = self.gru(output, hidden)\n","        return output, hidden\n","\n","    def initHidden(self):\n","        return torch.zeros(1, 1, self.hidden_size, device=device)\n","\n","\n","class Decoder(nn.Module):\n","\n","    def __init__(self, hidden_size, output_size):\n","        super(Decoder, self).__init__()\n","        self.name = 'Decoder'\n","        self.hidden_size = hidden_size\n","        self.embedding = nn.Embedding(output_size, hidden_size)\n","        self.gru = nn.GRU(hidden_size, hidden_size)\n","        self.out = nn.Linear(hidden_size, output_size)\n","        self.softmax = nn.LogSoftmax(dim=1)\n","\n","    def forward(self, input, hidden):\n","        output = self.embedding(input).view(1, 1, -1)\n","        output = F.relu(output)\n","        output, hidden = self.gru(output, hidden)\n","        output = self.softmax(self.out(output[0]))\n","        return output, hidden\n","\n","    def initHidden(self):\n","        return torch.zeros(1, 1, self.hidden_size, device=device)\n","\n","\n","class AttnDecoder(nn.Module):\n","\n","    def __init__(self, hidden_size, output_size, dropout_p=0.1, max_length=100):\n","        super(AttnDecoder, self).__init__()\n","        self.name = 'AttnDecoder'\n","        self.hidden_size = hidden_size\n","        self.output_size = output_size\n","        self.dropout_p = dropout_p\n","        self.max_length = max_length\n","\n","        self.embedding = nn.Embedding(self.output_size, self.hidden_size)\n","        self.attn = nn.Linear(self.hidden_size * 2, self.max_length)\n","        self.attn_combine = nn.Linear(self.hidden_size * 2, self.hidden_size)\n","        self.dropout = nn.Dropout(self.dropout_p)\n","        self.gru = nn.GRU(self.hidden_size, self.hidden_size)\n","        self.out = nn.Linear(self.hidden_size, self.output_size)\n","\n","    def forward(self, input, hidden, encoder_outputs):\n","        embedded = self.embedding(input).view(1, 1, -1)\n","        embedded = self.dropout(embedded)\n","        attn_weights = F.softmax(self.attn(torch.cat((embedded[0], hidden[0]), 1)), dim=1)\n","        attn_applied = torch.bmm(attn_weights.unsqueeze(0), encoder_outputs.unsqueeze(0))\n","\n","        output = torch.cat((embedded[0], attn_applied[0]), 1)\n","        output = self.attn_combine(output).unsqueeze(0)\n","        output = F.relu(output)\n","        output, hidden = self.gru(output, hidden)\n","        output = F.log_softmax(self.out(output[0]), dim=1)\n","        return output, hidden, attn_weights\n","\n","    def initHidden(self):\n","        return torch.zeros(1, 1, self.hidden_size, device=device)"],"execution_count":4,"outputs":[]},{"metadata":{},"cell_type":"code","source":["def calc_bleu_score(reference, hypothesis):\n","    reference = [str(reference).split()]\n","    hypothesis = str(hypothesis).split()\n","    return round(sentence_bleu(reference, hypothesis, weights=(1,)), 3)\n","    \n","    \n","def calc_scores(predictions, targets, model_type):\n","\n","    l1_scores, l2_scores, l3_scores, l4_scores = [],[],[],[]\n","    description_similarities = []\n","    \n","    for i in range(len(predictions)):\n","        pred = predictions[i]\n","        tar = targets[i]\n","        \n","        if(model_type == 'short'):\n","            bleu_score = calc_bleu_score(tar[0], pred)\n","            description_similarity = fuzz.token_sort_ratio(tar, pred)/100\n","            description_similarities.append(description_similarity)\n","            l4_scores.append(bleu_score)\n","            \n","        elif(model_type == 'long'):        \n","            for j in range(len(pred)):\n","                bleu_score = calc_bleu_score(tar[j], pred[j])\n","                if j == 0: l1_scores.append(bleu_score)\n","                elif j == 1: l2_scores.append(bleu_score)\n","                elif j == 2: l3_scores.append(bleu_score)\n","                else: \n","                    l4_scores.append(bleu_score)\n","                    description_similarity = fuzz.token_sort_ratio(tar[j], pred[j])/100\n","                    description_similarities.append(description_similarity)\n","                    break\n","                    \n","        else: raise ValueError(\"Invalid input for model type: acceptable arguments include ['short', 'long']\")\n","            \n","\n","    return l1_scores, l2_scores, l3_scores, l4_scores, description_similarities\n","\n","def check_file_types(file_list):\n","    \n","    file_extensions = []\n","    for file in file_list:\n","        extension = file.split('.')[-1]\n","        file_extensions.append(extension)\n","    \n","    if len(set(file_extensions)) > 1:\n","        raise TypeError('Please make sure all specified files are of the same type (csv or excel)')\n","\n","    file_extension = set(file_extensions).pop()\n","\n","    if(file_extension not in ['xlsx', 'csv']):\n","        raise ValueError('Invalid file type. Acceptable files include: csv, excel')\n","        \n","    return file_extension\n","\n","def create_merged_df(data_path, file_list, header_list, sheet_list, file_type):\n","    \n","    if len(file_list) != len(header_list):\n","        raise ValueError('Lengths of file_list and header_list do not match')\n","        \n","    df = pd.DataFrame()\n","    targets_check = []\n","    \n","    for f in range(len(file_list)):\n","        \n","        file_name = file_list[f]\n","        header = header_list[f]\n","        \n","        if file_type == 'csv':\n","            df_file = pd.read_csv(data_path+file_name, dtype=str, header=header)\n","        elif file_type == 'xlsx':\n","            sheet_name = sheet_list[f]\n","            df_file = pd.read_excel(data_path+file_name, engine='openpyxl', dtype=str, header=header, sheet_name=sheet_name)\n","        else: \n","            raise ValueError('Invalid input for file_type. Acceptable inputs include: csv, excel')\n","\n","        if('Target Account Description' in df_file.columns): targets_check.append(1)\n","        else: targets_check.append(0)\n","            \n","        df = pd.concat([df, df_file], sort=False)\n","\n","\n","    if(len(set(targets_check)) > 1):\n","        raise ValueError('Inconsistency with inclusion/exclusion of target data between specified files')\n","\n","    have_targets = set(targets_check).pop()\n","        \n","    return df, have_targets\n","\n","def format_df(df, model_type, have_targets):\n","\n","    df = df.dropna(how='all')\n","\n","    if model_type == 'long':\n","        if(any(['Source Level 1' not in df.columns, 'Source Level 2' not in df.columns, 'Source Level 3' not in df.columns])):\n","            raise ValueError(\"Model type 'long' selected, but source levels with required name format could not be found in data frame columns\")\n","        source_data = pd.DataFrame({'Source Level 1': df['Source Level 1'].copy(), 'Source Level 2': df['Source Level 2'].copy(), \n","                                    'Source Level 3': df['Source Level 3'].copy(), 'Source Account Description': df['Source Account Description'].copy()})  \n","        \n","        if(have_targets):\n","            target_data = pd.DataFrame({'Target Level 1': df['Target Level 1'].copy(), 'Target Level 2': df['Target Level 2'].copy(), \n","                                        'Target Level 3': df['Target Level 3'].copy(), 'Target Account Description': df['Target Account Description'].copy()})\n","        else: target_data = None\n","        \n","    elif model_type == 'short':\n","        source_data = pd.DataFrame({'Source Account Description': df['Source Account Description'].copy()})\n","        \n","        if(have_targets):\n","            target_data = pd.DataFrame({'Target Account Description': df['Target Account Description'].copy()})\n","        else: target_data = None\n","        \n","    else: raise ValueError(\"Invalid input for model type: acceptable arguments include ['short', 'long']\")\n","\n","    df = pd.concat([source_data, target_data], axis=1)\n","        \n","    return df\n","\n","\n","def preprocess_df(df):\n","    for col in df.columns:df[col] = df[col].apply(preprocess_text)\n","    return df\n","\n","def preprocess_text(text):\n","\n","    text = str(text)\n","    text = re.sub('-', ' ', text)\n","    text = re.sub('–', ' ', text)\n","    text = re.sub(\"'\", '', text)\n","    text = text.split(' ')\n","   \n","    words = []\n","\n","    for word in text:\n","\n","        #handle text with forward slash\n","        fs_split = word.split('/')\n","        if len(fs_split) > 1:\n","            if(list(filter(lambda word: len(word) < 3, fs_split))): word = \"\".join(fs_split)\n","            else: word = \" \".join(fs_split)\n","\n","        #handle text with ampersand \n","        amp_split = word.split('&')\n","        if len(amp_split) > 1:\n","            if(list(filter(lambda word: len(word) < 3, amp_split))): word = \"\".join(amp_split)\n","            else: word = \" \".join(amp_split)\n","\n","        #handle text with period abbreviations\n","        per_split = word.split('.')\n","        if len(per_split) > 1:\n","            if(list(filter(lambda word: len(word) < 3, per_split))): word = \"\".join(per_split)\n","            else: word = \" \".join(per_split)\n","        \n","        #handle single strings with words separated by capitals\n","        chars = [char for char in word]\n","\n","        idx_slices = [0]\n","        for i in range(len(chars)):\n","            if i == 0: continue\n","            #want to keep consecutive letters together\n","            if chars[i-1] in string.ascii_uppercase: continue\n","            if chars[i] in string.ascii_uppercase: idx_slices.append(i)\n","\n","        word = \" \".join([word[i:j] for i,j in zip(idx_slices, idx_slices[1:]+[None])])\n","        words.append(word)\n","    \n","    text = \" \".join(words).lower().strip()\n","    text = \"\".join([char for char in text if char not in string.punctuation+string.digits])\n","    text = re.sub('\\\\s+', ' ', text).strip()\n","\n","    return text\n","\n","def load_model(model_path, model_name, device):\n","\n","    model = torch.load(model_path+model_name, map_location=device)\n","    model_type = model['model_type']\n","\n","    max_length = model['max_length']\n","    input_set = Vocabulary('legacy')\n","    input_set.__dict__ = model['input_dict']\n","    output_set = Vocabulary('new')\n","    output_set.__dict__ = model['output_dict']\n","\n","    encoder = Encoder(input_set.n_words, model['hidden_size']).to(device)\n","\n","    attention = model['attention']\n","    if attention == True: \n","        decoder = AttnDecoder(model['hidden_size'], output_set.n_words, dropout_p=0.1, max_length=max_length).to(device)\n","    else:\n","        decoder = Decoder(model['hidden_size'], output_set.n_words).to(device)\n","\n","    encoder.load_state_dict(model['en_sd'])\n","    decoder.load_state_dict(model['de_sd'])\n","\n","    encoder_optimizer = model['en_opt']\n","    decoder_optimizer = model['de_opt']\n","    encoder_optimizer.load_state_dict(model['en_opt_sd'])\n","    decoder_optimizer.load_state_dict(model['de_opt_sd'])\n","\n","    return input_set, output_set, encoder, decoder, max_length, model_type\n","\n","def predict(input_set, output_set, encoder, decoder, account, max_length=100):\n","\n","    level_confidence_scores = []\n","    decoded_output = []\n","    \n","    with torch.no_grad():\n","        \n","        for i in range(len(account)):\n","            input_level = str(account[i])\n","            input_level_tensor = tensor_from_sentence(input_set, input_level)\n","            input_level_length = input_level_tensor.size()[0]\n","            \n","            encoder_hidden = encoder.initHidden()\n","            encoder_outputs = torch.zeros(max_length, encoder.hidden_size, device=device)\n","\n","            for en in range(input_level_length):\n","                encoder_output, encoder_hidden = encoder(input_level_tensor[en], encoder_hidden)\n","                encoder_outputs[en] += encoder_output[0, 0]\n","\n","            decoder_input = torch.tensor([[SOS_token]], device=device)  # SOS\n","            decoder_hidden = encoder_hidden\n","\n","            decoded_level_words = []\n","            decoder_attentions = torch.zeros(max_length, max_length)\n","            #record values for each decoded word\n","            top_values = []\n","\n","            for de in range(max_length):\n","                if(decoder.name == 'AttnDecoder'):\n","                    decoder_output, decoder_hidden, decoder_attention = decoder(decoder_input, decoder_hidden, encoder_outputs)\n","                    decoder_attentions[de] = decoder_attention.data\n","                else:\n","                    decoder_output, decoder_hidden = decoder(decoder_input, decoder_hidden)\n","            \n","                topv, topi = decoder_output.data.topk(1)\n","                top_values.append(np.exp(topv.item())*100)\n","\n","                if topi.item() == EOS_token:\n","                    decoded_level_words.append('<EOS>')\n","                    break\n","                else:\n","                    #translate decoder output into word and append\n","                    decoded_level_words.append(output_set.index2word[topi.item()])\n","\n","                decoder_input = topi.squeeze().detach()\n","\n","            decoded_output.append(decoded_level_words)\n","            level_confidence = statistics.mean(top_values)\n","            level_confidence_scores.append(level_confidence)\n","            \n","        #take average of decoded word values as confidence score\n","        confidence_score = statistics.mean(level_confidence_scores)\n","\n","        return decoded_output, decoder_attentions[:de + 1], confidence_score\n","\n","def predict_on_unknown(input_set, output_set, encoder, decoder, model_type, df, max_length=100, verbose=False):\n","    '''\n","    For a list of legacy accounts, predict a target for each account. Returns a dataframe with the legacy accounts, predicted target accounts, and respective confidence scores.\n","    '''\n","    \n","    if(model_type == 'short'):\n","        source_data = {'Source Account Description': df['Source Account Description'].copy()}\n","        \n","    elif(model_type == 'long'):     \n","        source_data = {'Source Level 1': df['Source Level 1'].copy(),\n","                       'Source Level 2': df['Source Level 2'].copy(),\n","                       'Source Level 3': df['Source Level 3'].copy(),\n","                       'Source Account Description': df['Source Account Description'].copy()}\n","        \n","    else: raise ValueError(\"Invalid input for model type: acceptable arguments include ['short', 'long']\")\n","\n","    sources = pd.DataFrame(source_data)\n","    \n","    if(verbose): print('Generating predictions...')\n","    predictions, confidence_scores = [], []\n","    for a in tqdm(range(len(sources))):\n","        account = sources.iloc[a, :].tolist()\n","        #predict on input account\n","        output, _, confidence_score = predict(input_set, output_set, encoder, decoder, account, max_length=max_length)\n","        prediction = []\n","        for pred_level in output:\n","            pred_level = \" \".join(pred_level[:-1]) #drop EOS token\n","            prediction.append(pred_level)\n","            \n","        predictions.append(prediction)\n","        confidence_scores.append(confidence_score)\n","\n","    df_out = sources.copy()\n","    \n","    if(model_type == 'short'):\n","            df_out['Prediction Account Description'] = [p[0] for p in predictions] #remove list brackets from each acct\n","            df_out['Confidence Score'] = confidence_scores\n","    else:     \n","        df_out['Prediction Level 1'] = list(list(zip(*predictions))[0])\n","        df_out['Prediction Level 2'] = list(list(zip(*predictions))[1])\n","        df_out['Prediction Level 3'] = list(list(zip(*predictions))[2])\n","        df_out['Prediction Account Description'] = list(list(zip(*predictions))[3])\n","        df_out['Confidence Score'] = confidence_scores\n","\n","    return df_out\n","\n","def evaluate_output(df_predictions, df_with_targets, model_type, verbose=True):\n","    \n","    #df_with_targets = df_with_targets.reset_index(drop=True)\n","    if(model_type == 'short'):\n","        target_data = {'Target Account Description': df_with_targets['Target Account Description']}\n","        \n","    elif(model_type == 'long'):\n","        target_data = {'Target Level 1': df_with_targets['Target Level 1'],\n","                       'Target Level 2': df_with_targets['Target Level 2'],\n","                       'Target Level 3': df_with_targets['Target Level 3'],\n","                       'Target Account Description': df_with_targets['Target Account Description']}\n","    \n","    else: raise ValueError(\"Invalid input for model type: acceptable arguments include ['short', 'long']\")\n","    \n","    df_targets = pd.DataFrame(target_data)\n","    \n","    predictions, targets = [], []\n","    for i in range(len(df_predictions)):\n","        if(model_type == 'short'):\n","            predictions.append(df_predictions.loc[i, 'Prediction Account Description'])\n","        else:\n","            predictions.append(df_predictions.loc[i, 'Prediction Level 1':'Prediction Account Description'].tolist())\n","        targets.append(df_targets.iloc[i, :].tolist())\n","    \n","    l1_scores, l2_scores, l3_scores, l4_scores, description_similarities = calc_scores(predictions, targets, model_type)\n","    \n","    if(model_type == 'short'):\n","        score_data = {'Predicted Description Bleu Score': l4_scores,\n","                      'Predicted Description Similarity':description_similarities}\n","        if(verbose):\n","             print(f'\\nDescription Bleu score average: {np.mean(l4_scores):.2f} \\\n","                     \\nAverage predicted description (L4) similarity to target: {np.mean(description_similarities)*100:.2f}%')\n","    else:\n","        score_data = {'Predicted Level 1 Bleu Score': l1_scores, \n","                      'Predicted Level 2 Bleu Score': l2_scores,\n","                      'Predicted Level 3 Bleu Score': l3_scores,\n","                      'Predicted Description Bleu Score': l4_scores,\n","                      'Predicted Description Similarity':description_similarities}\n","        if(verbose):\n","             print(f'\\nL1 Bleu score average: {np.mean(l1_scores):.2f} \\\n","                     \\nL2 Bleu score average: {np.mean(l2_scores):.2f} \\\n","                     \\nL3 Bleu score average: {np.mean(l3_scores):.2f} \\\n","                     \\nL4 Bleu score average: {np.mean(l4_scores):.2f} \\\n","                     \\nAverage predicted description (L4) similarity to target: {np.mean(description_similarities)*100:.2f}%')\n","    \n","    df_scores = pd.DataFrame(score_data)\n","    \n","    df_out = pd.concat([df_predictions, df_targets, df_scores], axis=1)\n","    \n","    return df_out"],"execution_count":5,"outputs":[]},{"metadata":{},"cell_type":"code","source":["#load and preprocess data\n","df = Alteryx.read('#1')\n","model_type = 'short'\n","have_targets = True\n","\n","#file_type = check_file_types(file_list)\n","#df, have_targets = create_merged_df(data_path, file_list, header_list, sheet_list, file_type)\n","df = format_df(df, model_type, have_targets)\n","df = preprocess_df(df)\n","df = df.reset_index(drop=True)\n","\n","df.head(5)"],"execution_count":6,"outputs":[]},{"metadata":{},"cell_type":"code","source":["# Read in file path created with Formula tool\n","filepath = Alteryx.read(\"#2\")\n","\n","# Concatanate the file path with the file name\n","model_path = filepath[\"WorkflowPath_\"][0]\n","model = 'IS_model_short_100000_0.698.hdf5'"],"execution_count":7,"outputs":[]},{"metadata":{},"cell_type":"code","source":["#load model and perform inference\n","input_set, output_set, encoder, decoder, max_length, model_type = load_model(model_path, model_name=model, device='cpu')\n","df_predictions = predict_on_unknown(input_set, output_set, encoder, decoder, model_type=model_type, df=df, max_length=max_length, verbose=False)\n","\n","if 'Target Account Description' in df.columns:\n","    df_predictions = evaluate_output(df_predictions, df, model_type=model_type)\n","\n","df_predictions.tail(5)"],"execution_count":8,"outputs":[]},{"metadata":{},"cell_type":"code","source":["Alteryx.write(df_predictions, 1)"],"execution_count":9,"outputs":[]}],"metadata":{"kernelspec":{"name":"designerbasetools_venv","display_name":"designerbasetools_venv","language":"python"},"language_info":{"name":"python","version":"3.8.5","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Explicit>
+            <Dependency Path="C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\BS_short_100000_0.809.hdf5" Package="True" IsMacro="False" IsOutput="False" IsAlias="False" />
+            <Dependency Path="C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\IS_model_short_100000_0.698.hdf5" Package="True" IsMacro="False" IsOutput="False" IsAlias="False" />
+          </Explicit>
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Example4.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Division" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Industry" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Source Account #" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Source Level 1" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Source Level 2" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Source Level 3" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Source Account Description" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Target Account #" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Target Level 1" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Target Level 2" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Target Level 3" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Target Account Description" size="255" source="File: C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Example4.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="test" />
+          </Fields>
+          <Data>
+            <r>
+              <c>test</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="WorkflowPath_" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[WorkflowPath_ = [Engine.WorkflowDirectory]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ajaykumar35\OneDrive - Deloitte (O365D)\atom-dc-coa\Old_IS_AcctDescOnly_predictions.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Old_IS_AcctDescOnly_predictions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output1" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Predict Old IS AcctDescOnly Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4bab6b68-8a7b-4369-b7c9-03cc5e11be75" />
+      <Telemetry>
+        <PreviousWorkflowId value="1c1dd8b2-3f18-43e3-b165-79789f3573ee" />
+        <OriginWorkflowId value="51e83262-0f13-4bd5-878b-e9a9fc4e5962" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

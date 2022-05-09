@@ -1,0 +1,1681 @@
+Source Account #,Source Account Description,Prediction Account Description,Confidence Score
+101709,me us gaap reporting,cos insurance,49.3132795093966
+101450,prepaid exp other,cos insurance,40.7530058246634
+101504,oca advance payment,cos insurance,45.8305077409843
+103162,inventory wip pl dpt lkwd,cos insurance,38.3892042042126
+220010,accrued payroll,cos insurance,56.564128107335
+230100,accrued warranty expense,cos other al,49.9988098101568
+100025,cor citibank multi corp,cos insurance,56.0158549070004
+103900,inventory suspense,cos other al,36.7404722486244
+102691,other long term debt,cos insurance,52.3066816309462
+230005,unvouchered inventory,cos insurance,31.2642547034347
+290000,capital stock,cos insurance,52.6362392984469
+150212,employee homes,cos insurance,36.3237062125659
+230750,accrued restructuring reserve current portion,cos insurance,50.1453898767653
+100261,fra ct lyonnais eur,cos insurance,22.8212846057434
+102314,acc rebate rx bf,cos insurance,46.2038543104265
+102323,st year warr cat beg bal,cos insurance,36.0526920426124
+130201,ppa trademarks,cos insurance,58.9227067259461
+0017700108,ad laboratory testing equipment manual,cos other al,46.4739537882895
+100200,se handelsbankden sek,cos insurance,24.4413637105658
+103909,inventory suspense loc,cos insurance,29.0055076608973
+294200,unearned compensation,cos insurance,19.3654661043049
+130101,ppa patents,cos insurance,60.2282090703513
+100006,cor bof a,cos insurance,26.6627983176498
+0017100101,cip mach equip,cos insurance,47.0023498812942
+0031220113,grir consignment inventory clearing,cos insurance,39.3354562254915
+103008,raw materials loc,cos insurance,36.9881684117607
+102471,prepaid tax,cos insurance,31.2232737458643
+101781,transportation gaap adj,cos insurance,18.7338929185212
+10139B01,inv carr in ic solta,cos insurance,55.1109435272969
+295000,retained earnings,cos insurance,45.7352647220104
+0017300120,fixed assets,cos insurance,29.225237852125
+0017500103,ad machinery equip,cos insurance,35.4493071468736
+102301,accrued advertising,cos insurance,42.6597498297351
+0018200100,goodwill,cos insurance,48.0319200672269
+103102,work in process loc,cos other,44.7136439813885
+230885,sales discounts reserve,cos insurance,37.271556384957
+0021100102,inter company ap cad manual,cos insurance,31.5953682980033
+102750,deferred inc tax st beg,cos insurance,32.8150293003293
+230905,al trial card,cos insurance,51.3948554455361
+101700,machinery equipment,cos insurance,43.4275176672026
+0021100202,inter company ap usd manual,cos other costs,24.9744338592147
+0018100100,lt restricted cash,cos insurance,38.9099550357026
+109000,intercompany receivables st,cos insurance,33.2170958607299
+281000,income tax payables long term,cos insurance,35.3226641268797
+103002,raw materials loc,cos insurance,38.2105434045636
+210010,"due from l' oreal contra ap account",cos insurance,19.921192456279
+230351,accr liab vat payable r,cos insurance,38.1725031731574
+220900,accrued payroll deductions other,cos insurance,44.788781847071
+102753,deferred tax st assets,cos insurance,30.5513193647994
+101671,acc depn ff gaap adj,cos insurance,40.1013670971787
+101510,other receivable reserve,cos insurance,36.7685717641084
+102320,accrued warr repl su,cos insurance,42.6014690889079
+285000,capital stock paid in capital,cos other al,39.4770593444766
+101460,demo equipment,cos other,45.6796523393341
+102681,aro liability prior yr,cos insurance,37.780215718788
+0015100100,miscellaneous receivables,cos insurance,46.6256156104819
+200400,clearing,cos insurance,30.6254075812071
+130000,goodwill,cos insurance,47.0262286472086
+102322,warr reserve st year,cos insurance,34.7072241777498
+210502,regional sales tax,cos insurance,38.0373932901843
+102752,deferred tax lt liab,cos insurance,23.5525610262161
+106780,deferred comp execs directors,cos other al,24.2413927075169
+230901,al medicaid rebates,cos insurance,50.3175260648968
+101760,computer hardware,cos insurance,50.6055627323075
+0031210105,ap trade usd man,cos other costs,22.061472426059
+101940,oth asset demo depn prov,cos insurance,32.2552736476326
+103311,finished goods loc,cos insurance,29.4616540127465
+125400,accumulated depreciation automotive other transportation equipment,cos insurance,47.6683954343411
+103450,finished goods step up,cos insurance,36.3187971687283
+102351,sale dsc rsv provis,cos insurance,47.8334423060127
+106250,prepaid stock grants,cos insurance,28.3710744649391
+292000,paid in capital,cos insurance,28.1335609593459
+0017300123,fixed assets manual land,cos insurance,45.570383600683
+102310,accr dis allow vc begin,cos other costs,24.3335142779857
+135701,ppaaccum amort outlicensed tech,cos insurance,56.3960344115998
+102683,aro liabl current year,cos insurance,26.7329843414003
+101014,tsa contra ar dendreon,cos other,46.5053451638696
+103320,finished goods on consignment,cos insurance,30.9497939576465
+230890,non consumer cust rebate reserv,cos insurance,44.3015111712024
+101394,inv carr in ic rx,cos insurance,53.9594003668227
+230825,accrued freight out,cos insurance,30.7305159320481
+130551,ppa product brands,cos insurance,60.0033215036431
+230805,accrued broker commissions,cos insurance,38.8772530607617
+105800,local fiscal inventory valuation adjustment,cos insurance,23.5418549867439
+100191,nl citibank eur,cos insurance,26.139736390111
+105800,local fiscal inventory valuation adjustment,cos insurance,23.347398372953
+210501,regional sales tax,cos insurance,38.200245535672
+0017100114,cip to recharge rd,cos insurance,30.9200570645195
+230889,non customer rebates reserve,cos insurance,36.2966409533167
+103905,inventory suspense loc,cos insurance,27.9054135878885
+101900,long term ar,cos insurance,29.6523920208546
+100019,cor cash oper inter co contra,cos insurance,40.7953806001876
+102304,sale dsc rsv inc provis,cos insurance,48.3722156568105
+102201,accrued payroll,cos insurance,56.2880656880828
+0017200111,molds tools dies manual,cos insurance,32.5191037911223
+102200,accrued payroll,cos insurance,54.8729698040701
+100164,vpii trea usd chase,cos other,52.1759519397921
+101600,accrued terms discount,cos insurance,33.5892104581013
+0031220102,grir non inventory,cos insurance,29.7467760721759
+101660,furniture fixtures,cos insurance,51.6179379968884
+120910,capital in process,cos other costs,33.3383042088976
+102951,minority interest,cos insurance,34.0277816415011
+100250,dis citibank usd,cos insurance,41.0460260974929
+104150,work in process icmu,cos other,44.65757044428
+101391,inventory carr in sol,cos insurance,56.4323704820773
+102330,sales rtn reserve provis,cos other costs,48.4228856280356
+106500,prepaid other,cos insurance,38.9213866708005
+101910,intangible asset bf us,cos insurance,27.2955888655851
+230960,st contingent consideration,cos insurance,29.0922719937674
+101405,accounts receivable refunds adjs,cos insurance,38.119926321808
+0017300122,fixed assets manual furniture,cos insurance,38.4536849891904
+294600,division control,cos insurance,26.3092186835446
+100245,dis citibank rub,cos insurance,34.1349421258227
+102103,accrued pw medical,cos insurance,47.1157854078788
+102471,prepaid tax,cos insurance,31.82126911215
+101832,acc dep long lived assets,cos insurance,41.8717762176695
+230893,us rebates reserve medicaid,cos insurance,30.3774534985
+230950,al medical device excise tax,cos insurance,37.0787819593039
+101020,petty cash,cos insurance,55.7031237203819
+135201,ppa accum amort trademarks,cos insurance,59.1256077630181
+101450,prepaid exp other,cos insurance,40.529619104541
+230000,accrued te vouchers payable,cos insurance,40.6255844284541
+0017700101,ad building manual,cos other al,51.5212259515076
+241000,deferred income taxes us federal st liability,cos insurance,33.7450925309629
+104310,finished goods in transit transfer price,cos insurance,45.0157978622389
+110000,deferred income taxes us federal st assets,cos insurance,36.3921898353377
+100700,cash on hand in transit,cos other,39.9018650127572
+106800,other current assets,cos insurance,39.4523108029234
+220300,accrued payroll and social taxes,cos other costs,42.6680923357347
+102103,payroll withholding,cos other,27.5213830121938
+210600,ap invntry in process control,cos insurance,27.135549248679
+230800,accrued customer bonuses,cos insurance,45.621043870626
+102323,st yr warr acc su bf,cos insurance,33.6255119624542
+0021500109,accrued business tax,cos insurance,37.1353851546335
+100266,lab citibank alger dzd,cos insurance,40.9714917822834
+242400,non us income taxes payable,cos insurance,24.3959710538884
+0011100101,ar trade cad manual,cos insurance,23.1463256942206
+180000,deferred income taxes us federal lt assets,cos insurance,38.0502732244954
+101395,aoc inventory cat,cos other al,20.8057495308691
+230910,al dr rebates medicis,cos insurance,50.6019749719966
+101400,accounts receivable clearing,cos insurance,39.9258124764842
+102322,accrued warranty provisio,cos other costs,46.5615709152826
+102300,audit fees provision,cos insurance,40.8288881810565
+101670,accum dep ff,cos insurance,40.9114024224926
+103841,inventory reval gross icmu,cos insurance,37.814421864034
+102470,income tax pyble begbal,cos other al,28.2151651850931
+101700,machinery equipment,cos insurance,43.4002607949509
+230842,deferred income,cos insurance,54.9434042467296
+101911,intangibles asset,cos insurance,23.954734900451
+110000,deferred income taxes us federal st assets,cos insurance,34.9216979491276
+0017300101,building ppa,cos other costs,52.9971102755423
+102100,ap others,cos insurance,25.0229486078437
+0022100100,accrued expenses,cos insurance,34.7402282453165
+102100,ap trade,cos insurance,26.3966799168309
+100264,lab bnp eur,cos insurance,25.3166306229584
+0014010119,finished products in tansit,cos insurance,39.499701478484
+102301,accrued other prof svc,cos insurance,42.1152101025271
+220513,accrued pw reimbursement hlth sav,cos insurance,40.676064687477
+230650,accrued relocation expense,cos insurance,54.2532688527534
+103127,inventory wip pl emcure,cos insurance,43.96104715991
+101850,accum dep demo eqpt,cos insurance,44.8816866374919
+220510,pw medical active,cos insurance,46.3133592955398
+102312,disc allowance opening,cos insurance,44.8410295496147
+0026800100,expense clearing,cos insurance,34.1554142662647
+101503,ar other chargebacks,cos insurance,22.7875217287542
+0021500100,accrued salaries wages,cos insurance,42.2851217019156
+102690,other long term debt,cos insurance,53.247468609542
+101603,chargeback accrual,cos insurance,30.6583145532261
+230890,non consumer cust rebate reserv,cos insurance,41.7697413845742
+102300,professional fee prov,cos insurance,45.947340371174
+210200,trade payables payroll clearing,cos insurance,31.6918546229534
+101719,acc depn me us gaap repo,cos insurance,48.409355421961
+135550,accum amort product brands,cos insurance,49.0339194652985
+101452,prepaid exp ap,cos other,33.9612496913755
+130500,product rights,cos insurance,38.721786765842
+102312,disc allowance release,cos insurance,29.2020746123083
+101838,acc depn long live us,cos insurance,19.6041962485229
+102961,intercompany dividends,cos insurance,28.3016400786148
+120150,leasehold improvements,cos insurance,34.1005646596199
+101395,inv carr in ic award,cos insurance,46.1607501298651
+230010,accrued utilities electric,cos insurance,41.2088540519072
+102300,accured expense others,cos other costs,36.9531836448623
+101000,cash in bank mbb pjmyr,cos other costs,32.8401209229807
+102360,deferred revenue svctt,cos other,42.4640543108273
+102313,return reserve beg bal,cos insurance,51.4421502239438
+230911,al customer rebate medicis,cos insurance,46.8092678153358
+102323,st yr warr acc oth deduc,cos other costs,17.2064586512689
+101462,demo equipment deduction,cos other costs,34.3788390546989
+230906,al tricare rebates,cos insurance,25.1404363533341
+105500,capitalized ppv,cos other al,47.2367847189234
+0018300100,patents,cos insurance,45.1517482760032
+103166,inventory wip pl siegfried,cos insurance,21.4221494886688
+101000,cash in bank hk bank hkd,cos insurance,47.3724902188749
+150235,accumulated depreciation surgical demo equip,cos insurance,50.5898958281153
+130000,goodwill,cos insurance,46.0998048557536
+295200,dividends declared cash,cos insurance,39.8605092179466
+125150,accumulated depreciation leasehold improvements,cos other,29.9472223717438
+102811,capital stock,cos insurance,52.2161170618665
+102331,sales rtn res vc bf,cos insurance,51.5638352187156
+0021100100,inter company ap cad,cos insurance,33.9071476552864
+150800,other long term assets,cos insurance,55.0329374066836
+100634,jpm usd,cos insurance,39.8762189244436
+120200,furniture fixtures,cos insurance,53.3699567325956
+210000,trade payables,cos other costs,42.4456608362433
+102331,sales rtn res vc pro,cos insurance,50.4433422088519
+102200,accrued payroll,cos insurance,56.217539220826
+102691,other long term debt,cos insurance,52.8219394954155
+106205,vat unclaimed,cos insurance,31.0746720474846
+101820,leasehold improvement,cos other,38.115885022829
+130401,ppa supply agreement,cos other costs,54.9508810710562
+120400,automotive other transportation equipment,cos other,36.81598766062
+103303,finished goods loc,cos insurance,28.7537566448572
+101839,acc depn leasehold imp us,cos insurance,48.0698770249212
+100157,vpii treasury usd td,cos other costs,46.6250168005215
+230600,accrued interest,cos insurance,40.9937521639874
+102311,accr dis allow vc release,cos other,18.6862406082861
+101461,demo equipment addition,cos other,43.3249614530417
+0017200109,computer hardware manual,cos insurance,50.4375624592904
+150227,surgical trial equipment,cos insurance,43.5464949266015
+270500,intercompany payables lt,cos other costs,29.5455939723108
+101761,computer hardware,cos insurance,50.4469026047433
+100241,bcf citibank eur,cos insurance,26.3039605773004
+259900,intercompany unbilled pending disposition,cos insurance,35.1572540042251
+101000,trade accounts receivable gross,cos insurance,44.8572901215608
+107400,assets held for disposal st,cos insurance,29.9983017731938
+100257,dis citibank eur,cos insurance,22.8532903909389
+230865,chargeback contractual pricing allow reserve,cos insurance,21.0526963945642
+130100,patents,cos insurance,45.8491040826709
+292000,paid in capital,cos insurance,30.743754269554
+0015200100,employee receivables,cos insurance,50.2199286792138
+101921,good will,cos insurance,31.4333883527976
+103111,inventory wip pl key instrmnt,cos insurance,31.2117557221095
+102672,pension employee lib,cos insurance,29.9940393173862
+120300,machinery equipment,cos insurance,44.7509978270611
+220830,pw family court,cos insurance,33.9414729923866
+100140,sur b of a concentration,cos insurance,24.975311460433
+0014380103,rawm semi wip reserve,cos other costs,20.9374543902628
+230055,accrued selling,cos other,36.7669969671231
+0021500106,employee stock pur plan,cos insurance,24.8502587561189
+230810,accrued royalty,cos insurance,37.4178296018999
+101830,accum dep leasehold impro,cos insurance,26.3525079070371
+103010,raw materials loc,cos other,33.917350925001
+101507,oca other,cos other,27.0785356761258
+210013,tsa payable dendreon,cos insurance,35.1909463888572
+150240,deferred loan cost,cos other costs,45.7210791261852
+105801,local fiscal inv val adj acccum,cos other costs,22.1849117804636
+102302,check,cos insurance,28.0289377654018
+101450,bl beijing eyecare,cos insurance,34.8783420537966
+0017300105,computer software ppa,cos insurance,60.9616743749078
+101671,accmulated dep ff,cos insurance,25.4222206756475
+102300,professional fee prov,cos insurance,46.1637830798898
+0015500300,inter company ar mxn,cos insurance,29.8309820158755
+100182,ireland hsbc usd,cos insurance,22.1173374589031
+0017700106,ad computer software manual,cos insurance,46.1831072210731
+230047,accrued professional expense,cos insurance,41.8682942403798
+280250,additional pension liability,cos insurance,29.3527441119618
+100629,vpi cash jpmc,cos insurance,45.4365010142649
+106810,restricted cash,cos insurance,41.93455443741
+102302,sale dsc rsv pymtcy,cos insurance,51.7159039137026
+0014810103,packaging mtls ico,cos insurance,22.9322113212212
+0018400102,amort intang mfg agreement,cos other,37.6918118364832
+106100,prepaid rent,cos insurance,47.0368508884285
+101395,inv carr in ic prp,cos insurance,48.6867224895851
+0017200108,furn fix manual,cos insurance,39.3686554397428
+101381,freight in cat,cos insurance,49.9527614662387
+101500,other current assests,cos insurance,39.9776650035619
+150226,surgical demo equipment,cos other,47.7056564196986
+102325,deferred revenue provn,cos other al,44.7156726083858
+101830,acc dep long lived assets,cos insurance,40.1303993771707
+220360,accrued er fica fui sui,cos other other,44.2650335611181
+102211,accrued commissions,cos insurance,46.8180829770626
+102103,accrued pw pension,cos insurance,40.6298132126711
+230900,other accrued expenses,cos insurance,34.4821289135768
+0017700104,ad furniture and fixtures manual,cos insurance,47.5239999271697
+101010,"due to l' oreal contra ar account",cos insurance,22.430174410949
+101700,machinery equipment,cos insurance,44.249164826621
+130401,ppa supply agreement,cos other,53.818020753366
+103130,inventory wip pl prod quest,cos insurance,31.8013734431489
+210300,deposits and advance collections,cos insurance,47.1244069907646
+130500,product rights,cos insurance,40.2223631653932
+101395,inv carr in ic award,cos insurance,46.0589868527422
+101838,accum depn lh newco,cos insurance,32.9054337059056
+101450,prepaid exp other,cos insurance,42.0801476520024
+130701,ppa outlicensed technology,cos insurance,55.5550355492658
+210600,ap invntry in process control,cos insurance,27.5165973607425
+120400,automotive other transportation equipment,cos insurance,41.9481045576747
+0017600122,fixed assets ad manual furniture,cos insurance,47.0724276409222
+100605,vpi cash boa master,cos insurance,28.0084856162644
+106501,prepaid other trial card,cos insurance,35.2049589562045
+220525,pw disblty ltd std,cos insurance,36.6804956959916
+102270,accrued non aicp bonus,cos insurance,45.2032210221972
+170000,advances to subsidiaries lt,cos insurance,19.5138741291338
+120300,machinery equipment,cos insurance,43.832881573089
+0021100120,ap ic reval fx other,cos insurance,25.2695270536022
+101004,trade ar walgreens,cos insurance,33.6964047783108
+150225,surgical loaner equipment,cos insurance,48.5591424952507
+200200,long term debt due within one year,cos insurance,39.3254728174441
+101511,deferred income tax lt,cos insurance,32.9641581622864
+101762,computer software,cos insurance,52.0025073356625
+0025010105,qst pst payable,cos insurance,40.5444191721208
+135101,ppa accum amort patents,cos insurance,58.1587360200861
+0017600120,fixed assets ad,cos insurance,46.7617822034597
+0014310106,wip period end open orders,cos insurance,46.0403137072106
+230650,accrued relocation expense,cos other costs,50.3290152222109
+101861,construction in progress,cos insurance,38.1298378655265
+102909,retained earning pushdown,cos insurance,50.3810266672825
+101510,ar other ima fees,cos insurance,27.3551404844642
+0014010199,int profit fini inventory,cos insurance,29.5250813781398
+230362,accr liab vat clearing r,cos other costs,22.6923712465858
+230902,al mhc rebates,cos insurance,41.2015830567559
+230750,accrued restructuring reserve current portion,cos insurance,50.607828508503
+103100,work in process,cos insurance,57.2047264740021
+103841,inventory reval gross icmu,cos insurance,38.2988220655267
+101770,accum amtz software,cos other,26.7524896453207
+180000,deferred income taxes us federal lt assets,cos insurance,36.4172043787231
+102300,accured exp aprom,cos insurance,26.882636112013
+101396,frt in ic lens,cos insurance,22.4688887219964
+101200,reserve for bad debts,cos insurance,38.7412802429254
+0014010104,finished goods manual,cos insurance,41.160795537091
+210400,sales use tax payable,cos insurance,36.8849050853158
+101512,oca other receivables,cos insurance,40.1773117217974
+104100,work in process transfer price,cos insurance,44.2091020758603
+220361,accrued er fica r,cos insurance,32.4024554656139
+230901,al medicaid rebates,cos insurance,50.7925203852055
+102360,deferred revenue su bf,cos other,46.9362042319614
+102100,ap others,cos insurance,23.8644471980939
+180100,deferred income taxes state lt assets,cos insurance,28.3012202430692
+0018400121,amort intang ppa man,cos insurance,48.8631911736794
+230890,non consumer cust rebate reserv,cos insurance,44.9674866800509
+100447,bar scotia bds,cos insurance,24.9019236483181
+109900,intercompany unbilled pending disposition,cos other al,34.99952918487
+101505,oca suspenses payment,cos insurance,47.0687472773842
+0017500104,ad furniture fixtures,cos insurance,44.2534127637744
+101510,deferred income tax st,cos insurance,35.9202009357209
+230880,sales returns reserve,cos other al,49.2526391730766
+125310,accumulated depreciation computer software,cos insurance,44.3750447116966
+102291,employee benefit payable,cos other,32.4285790469364
+101397,inv reval gross sc,cos other,23.6454431588314
+0017100102,cip other,cos insurance,48.6109799154783
+103901,inventory suspense loc,cos insurance,26.7245140279852
+280200,pensions and profit sharing,cos insurance,24.2247681194604
+200300,capital lease obligations due within one year,cos insurance,27.8073378037681
+102330,sales rtn reserve begbal,cos insurance,53.1227387096288
+109900,intercompany unbilled pending disposition,cos insurance,36.5634045801387
+102270,accrued non aicp bonus,cos other,41.632141583455
+220100,accrued salaries wages,cos insurance,43.2883935900028
+101393,inv carr in ic ref,cos insurance,34.3952736082219
+103840,finished goods icmu,cos other al,43.4216497644262
+103123,inv wip pl omeprazole salix,cos insurance,41.9480959743173
+135101,ppa accum amort patents,cos insurance,57.0508151723689
+230841,deferred revenue for goods on consignment,cos insurance,41.2376302665241
+0014010101,finished products in house production,cos other costs,31.5558722705492
+210503,regional sales tax,cos insurance,32.2097805049315
+102272,accrued bonus non aicp,cos insurance,44.8979846270534
+0031210104,ap trade cad man,cos other,24.7012009417068
+282400,non current deferred tax liability non us,cos insurance,32.4761888486328
+101510,ar other ima fees,cos insurance,26.6301704750768
+0016500100,assets held for disposal,cos insurance,30.7733910528008
+102300,accured exp aprom,cos insurance,27.1272125293985
+107200,advances and deposits,cos insurance,42.7235543089186
+230361,accr liab vat clearing r,cos insurance,27.3414927274566
+107001,royalties receivable,cos insurance,39.0024409965958
+120300,machinery equipment,cos insurance,42.5479369686782
+220320,pw state weekly,cos insurance,48.0201236096125
+120200,furniture fixtures,cos insurance,50.575635304067
+100263,lab societe generale eur,cos insurance,24.843611348272
+102752,deferred tax lt liab,cos insurance,23.7798905417882
+106050,prepaid pension,cos insurance,34.5724307064214
+102682,aro liability current,cos other,41.19139413626
+230301,accr liab vat input r,cos insurance,26.4910959667066
+100175,ehq citibank gbp,cos insurance,38.1861610064889
+101397,inv reval acc amor sc,cos other costs,22.3304592861925
+170010,advances to affiliate accr int,cos other costs,20.4323721851611
+101668,mach eqpt newco,cos insurance,42.5377726201627
+101000,cash in bank citi myr,cos insurance,57.1480503825007
+100173,uk chase ar,cos other costs,29.652305518791
+102301,other accrued expenses,cos insurance,32.5753273888544
+103167,inventory wip pl pci,cos insurance,29.9520436150092
+101491,deposits,cos insurance,37.8059943977871
+0017300100,land ppa,cos insurance,60.5304400234145
+101430,accounts receivable deduction outstanding,cos insurance,32.7125547178741
+230350,vat payable,cos insurance,25.7488207995975
+135100,accumulated amortization of patents,cos insurance,45.5294414438675
+100412,spa citibank mad,cos other costs,24.8875617182472
+106240,income taxes receivable,cos other,38.0441924823248
+103725,finished goods in transit loc,cos insurance,38.4704602387003
+294800,cumulative translation adjustment,cos insurance,23.1946845562003
+0015010106,restricted taxes ont,cos insurance,39.2413023027006
+230941,al capital expenditures,cos insurance,46.2522851580375
+109000,intercompany receivables st,cos other,27.2328278621955
+230904,al iff other fees,cos insurance,30.8111445963219
+101420,unapplied cash,cos other,38.6968594084958
+101500,claim recble defective,cos insurance,25.7767617535729
+105500,capitalized ppv,cos insurance,49.5082370176164
+102301,accrued other prof svc,cos other costs,38.6788778737836
+103844,inventory samples icmu,cos insurance,33.8557326829145
+260600,medium term notes payable principal,cos insurance,30.8078236259524
+125500,accumulated depreciation assets leased to others,cos other costs,42.1730011487022
+110200,deferred income taxes non us st assets,cos insurance,31.078784796262
+130501,ppa product rights,cos insurance,58.7266590322825
+103020,raw materials on consignment,cos insurance,36.1844549661266
+101397,inv reval gross sc,cos insurance,26.3017567749558
+0026500100,construction holdback,cos insurance,23.5160551099391
+220010,accrued payroll,cos insurance,55.2806331191454
+103721,finished goods in transit loc,cos insurance,41.016537955088
+230080,current unearned lease income,cos insurance,37.1676181164566
+294800,cumulative translation adjustment,cos other costs,17.9555008098498
+104150,work in process icmu,cos insurance,50.262032331757
+102351,co op advert rsv pymtcy,cos insurance,51.0230266715482
+222000,accrued benefits medical active,cos other other,41.4672923753921
+103160,inventory wip pl pps,cos insurance,43.7106911762792
+102811,capital stock,cos insurance,51.396558927844
+230941,al capital expenditures,cos other other,41.4799272239645
+101393,carriage in ic tpv,cos insurance,32.5739144864807
+101661,furniture and fixtures,cos insurance,52.2663519603008
+220650,accrued supp pension,cos other al,33.2874707937286
+103725,finished goods in transit loc,cos insurance,38.1316693382802
+101760,computer hardware,cos insurance,49.831619188137
+102801,legal reserves subsidiari,cos insurance,34.4968994660832
+106500,prepaid other,cos insurance,37.9028637528253
+104310,finished goods in transit transfer price,cos insurance,45.8698729230512
+150226,surgical demo equipment,cos other costs,46.9074308595236
+120305,computer hardware,cos other costs,48.2882903354735
+103921,inventory suspense other loc,cos other,25.2434164463513
+294200,unearned compensation,cos other,17.6495910353893
+102313,return reserve release,cos insurance,41.2956932446864
+101395,carriage in ic sol,cos insurance,27.5422857250526
+230930,al unclaimed property,cos insurance,22.4212031426862
+230065,accrued research development,cos other costs,29.9826365331925
+0017200106,building improvement manual,cos other,37.0080098088227
+220501,retiree med life program,cos insurance,35.2451754114922
+0021500101,accrued vacation,cos other,41.6086654309923
+100154,vcp usd td,cos other costs,32.8146530117242
+220530,accrued blue cross active,cos other,41.4750500500559
+102103,accrued payroll withholdi,cos other costs,47.9241967442699
+125150,accumulated depreciation leasehold improvements,cos insurance,33.4252475280019
+106506,prepaid inventory,cos insurance,33.5690321675898
+100156,vpii usd td,cos other,41.7355269976477
+102351,co op advert rsv provis,cos insurance,50.4220654956149
+103300,finished goods,cos insurance,29.654569841173
+103143,inventory wip pl pure tek,cos other costs,30.0988225558073
+130601,ppa license agreements,cos other al,57.804869652242
+0015010105,qst pst recv,cos insurance,27.8637225672175
+101420,unapplied cash,cos insurance,42.3919135690314
+0031210101,ap trade cad,cos other,25.5586058431626
+101501,ar otc coop promo,cos insurance,32.5514803350059
+0015500102,inter company ar cad manual,cos other costs,27.066325290238
+101770,accum dep comm computer,cos insurance,38.2370195577926
+10138B02,duty solta,cos insurance,44.0696967550607
+230960,st contingent consideration,cos insurance,23.7720594555495
+230625,litigation reserves,cos other,34.2723855475135
+110200,deferred income taxes non us st assets,cos insurance,30.6400714903549
+101000,trade accounts receivable gross,cos insurance,43.2531066932229
+103009,raw materials loc,cos insurance,37.007302102932
+101771,acc dep computer hardware,cos insurance,52.1014743801038
+0016100101,prepaid restricted cash,cos insurance,29.6277171973997
+106199,prepaid sales use tax,cos insurance,24.5067296278796
+210301,tsa advance collection sprout,cos insurance,48.6272653203964
+102901,retained earnings,cos insurance,47.1019193292868
+101830,accum dep leasehold,cos other costs,27.7896297667761
+170500,intercompany receivables lt,cos insurance,33.5356430773899
+102390,due to from jv,cos insurance,23.7743362173646
+102313,return reserve provision,cos insurance,49.6265536622933
+0021500104,payroll clearing,cos insurance,32.6147745040099
+230047,accrued professional expense,cos insurance,41.9298937283822
+102100,ap coupon deposit,cos insurance,28.5423649586904
+101395,inv carr in ic lens,cos insurance,50.6828100728124
+107000,non trade accounts receivable collectible,cos insurance,29.5416220621261
+103140,inv wip pl cycloset salix,cos insurance,42.026746214172
+150550,medium term notes,cos insurance,29.2078596527646
+105300,physical inventory,cos insurance,27.0709601193882
+135551,ppa accum amort product brands,cos other,55.2724908467435
+102314,acc rebate rx release,cos insurance,37.8231810409695
+100153,vcp cad td,cos insurance,30.5359205716311
+101000,cash in bank citi usd su,cos insurance,55.3187963669347
+103305,finished goods loc,cos other costs,28.1890745328763
+230903,al medicare rebates,cos insurance,40.5487095961865
+102832,additional capital,cos insurance,47.8923026941881
+103148,inventory wip pl anr,cos other al,39.3059385479612
+101761,cost equip us gaap rep,cos insurance,38.5063429987412
+101008,shinhan bank seocho,cos insurance,38.1804052982244
+103005,raw materials loc,cos insurance,38.6045814546919
+101850,accum dep demo eqpt solta,cos insurance,44.9739902059744
+230861,accr st trade volume discounts,cos other costs,32.7794084338649
+102323,st year warr cat release,cos insurance,23.7460356840056
+102102,accounts payable others,cos insurance,40.7138294737083
+102210,accrued commission,cos insurance,47.1598976740979
+101829,leasehold improvement us,cos other,45.7254373851732
+230300,vat input,cos insurance,33.5923591378839
+0017200112,laboratory testing equipment manual,cos insurance,41.8318407341421
+100301,bel citibank eur,cos insurance,25.7774697698704
+0014680104,pkgm reserve,cos insurance,35.5530894402538
+103977,inventory samples ccg,cos other al,19.5200877531256
+101000,cash in bank citi usd,cos insurance,56.7575984680306
+103141,inv wip pl nexgen salix,cos insurance,45.8345544049008
+101700,off equipment,cos other costs,27.5431967611617
+220500,pw life active,cos insurance,38.3390555233897
+150230,accumulated depreciation surgical loaner equip,cos other costs,40.2935715855138
+130551,ppa product brands,cos insurance,60.3991343564539
+101821,long lived asset aro,cos insurance,23.3392481815849
+101661,ff,cos insurance,28.5887377556371
+0016100102,prepaid expense other,cos insurance,41.6182134044582
+100442,lux hsbc usd,cos insurance,30.1981992661773
+100180,irlcm citibank eur,cos insurance,43.5712801525831
+220400,accrued workers compensation,cos insurance,43.3950354182299
+0031210102,ap trade usd,cos insurance,24.8337170584122
+100390,local bank bc,cos insurance,51.5333744145141
+180200,deferrred income taxes non us lt assets,cos insurance,25.8180626133561
+102351,sale dsc rsv begbal,cos insurance,52.9843218751561
+103301,finished goods loc,cos other,25.2267375833486
+101000,cash in bank citi sgd su,cos insurance,59.8515566470982
+220200,accrued aicp bonuses,cos insurance,39.4635239112542
+102210,accrued commission,cos insurance,46.3694430196752
+250000,intercompany payables st,cos other,30.0119741423454
+150450,other deferred compensation,cos insurance,35.7863441046761
+230884,sales returns precision,cos insurance,36.4004671239595
+0021500103,accd retirement sav pln employee,cos insurance,28.4773948064652
+102301,accrued audit,cos other,44.7514344440764
+105201,inventory provisions rm,cos insurance,26.2481620286396
+180200,deferrred income taxes non us lt assets,cos other costs,20.8938407461374
+130400,supply agreement,cos insurance,35.9289350692599
+106214,regional recoverable tax,cos insurance,41.4823785431306
+260800,other long term debt,cos insurance,53.2897810986114
+101200,reserve for bad debts,cos insurance,38.142782159092
+101395,inv carr in ic ref,cos insurance,33.1689157480841
+220150,accrued commissions,cos insurance,46.8399741303548
+101460,demo equipment begin,cos insurance,43.4689872391361
+105400,scrap rework,cos insurance,21.1438359801068
+0016100104,down payment,cos other al,25.2590174833736
+102471,local income tax payable,cos insurance,37.1906931544539
+220350,pw fica taxes ee,cos insurance,45.7522975809084
+220310,state wh monthly ca sdi,cos insurance,31.0854629413538
+103840,finished goods icmu,cos other costs,43.0497857958032
+130651,ppa partner relationships,cos insurance,57.5005455386612
+100105,vcu chase ar,cos insurance,20.6768598403256
+230351,accr liab vat payable r,cos insurance,39.2870015316752
+125100,accumulated depreciation buildings,cos insurance,37.5824667492902
+230560,al franchise tax,cos insurance,28.6199004997254
+103321,fg on consignment walgreens,cos insurance,29.484685120151
+101010,"due to l' oreal contra ar account",cos insurance,23.7719615765588
+230046,accrued audit expense,cos insurance,44.1910636466512
+103600,other inventory,cos insurance,35.1153253100184
+101770,accum dep hardware,cos insurance,27.3021689828521
+101000,kookmin bank seo cho,cos insurance,54.6564607855546
+107000,non trade accounts receivable collectible,cos insurance,28.8530241533248
+103300,finished goods,cos insurance,33.7706303928681
+101760,computer software,cos other costs,48.0111063793725
+282000,non current deferred tax liability us federal,cos insurance,34.0364363184282
+103926,inventory suspense other loc,cos insurance,30.2138979995014
+110200,deferred income taxes non us st assets,cos insurance,28.5979508695724
+293000,treasury stock,cos insurance,34.2991401397479
+0017600100,ad building ppa,cos insurance,54.7761375545421
+230804,accrued association fees,cos other costs,31.8909855007252
+103700,raw materials in transit,cos insurance,39.2678011902185
+101940,demo other addition,cos insurance,43.8227879591117
+103500,inventory reval gross,cos insurance,44.4045362220224
+135550,accum amort product brands,cos insurance,48.6981998968305
+102909,retained earning pushdown,cos other,47.6111715661601
+102314,chgbk contprcgrsv provis,cos insurance,33.0158938366759
+101760,communication computer,cos insurance,45.9155734194702
+135300,accumulated amortization of customer lists,cos insurance,41.5097382711264
+295200,dividends declared cash,cos insurance,40.6712734507476
+10232B02,st yr warr ac solta bf,cos insurance,40.8781245056669
+230353,accr liab vat payable r,cos insurance,39.1822649976131
+281000,income tax payables long term,cos other,31.9028057133877
+0017100105,building,cos insurance,37.3213749536489
+105202,inventory provisions wip,cos insurance,24.2029874280248
+150227,surgical trial equipment,cos other costs,39.7495320058191
+242400,non us income taxes payable,cos insurance,24.7329742385602
+125305,accumulated depreciation computer hardware,cos insurance,46.5366786205564
+102323,st yr warr acc su prov,cos other costs,30.1912425938145
+290000,capital stock,cos insurance,52.549624502106
+102221,accrued payroll taxes,cos insurance,55.7948929952571
+280700,other long term liabilities,cos insurance,44.8755020720248
+230870,advertising reserve,cos insurance,45.0215628524281
+102100,ap technolas,cos insurance,28.3301186591357
+230844,deferred service revenue,cos insurance,49.2450769567803
+130900,intangibles not subject to amortization,cos insurance,18.3988922489089
+10236B00,def revenue solta rel,cos insurance,51.3863510153219
+106000,prepaid insurance excl workers comp,cos insurance,41.3159429293437
+102271,accrued aicp bonus,cos other,51.9477475441894
+0017100106,building improv,cos insurance,39.6490922795383
+230050,accrued administration,cos insurance,33.2711962988413
+101820,leasehold improvement,cos insurance,40.7833212642567
+103500,inventory reval gross,cos insurance,44.1703094072617
+108000,allowance for doubtful accounts non trade receivables,cos insurance,41.1056555740476
+101451,prepaid expenses other,cos insurance,33.4964904617352
+100155,vpii cad td,cos insurance,20.2451005645474
+0017100104,land improv,cos other costs,40.8122110112681
+220150,accrued commissions,cos insurance,46.1713642774109
+102340,gs gst on sales,cos insurance,30.9453736795361
+102260,accrued vacation,cos insurance,46.9877583956584
+280710,lt contingent consideration,cos insurance,24.1214858427005
+150500,strategic equity investments,cos insurance,29.4871283281743
+0031210111,ap reval foreign exchange mxn,cos insurance,20.1944865995993
+10139B00,inv carr in ic solta,cos insurance,55.536879049597
+107400,assets held for disposal st,cos insurance,30.7051827154884
+101490,deposits,cos insurance,34.7725802035293
+101009,citibank usd,cos insurance,32.9430599953521
+101400,accounts receivable clearing,cos insurance,41.1676586058475
+106300,prepaid marketing advertising promotions,cos insurance,27.514279728221
+101394,carriage in local rx,cos insurance,45.8121192646369
+101821,lhi,cos insurance,29.3965444957053
+170500,intercompany receivables lt,cos insurance,35.0770416760197
+130601,ppa license agreements,cos insurance,60.1320234907684
+220800,pw vacation,cos insurance,41.5337127385476
+230060,accrued operations,cos other costs,30.3077774310708
+101502,ar other partner,cos insurance,43.6342191975513
+230080,current unearned lease income,cos insurance,36.8059302547525
+102301,accrued vacation,cos insurance,46.1551908217263
+230842,deferred income,cos other costs,50.9168218235255
+106240,income taxes receivable,cos other costs,38.1525416383764
+220210,accrued non aicp bonuses,cos insurance,35.8224909733586
+106502,prepaid other rebates,cos other costs,32.9092224053632
+230920,al inventory,cos other,31.46773269595
+101394,carriage in ic rx,cos insurance,38.6125462185884
+230820,accrued duty freight,cos insurance,41.338944405131
+260655,discount on lt debt,cos insurance,24.6498224534049
+135501,ppa accum amort product rights,cos other,53.400171002392
+230005,unvouchered inventory,cos insurance,31.2010930949923
+135701,ppaaccum amort outlicensed tech,cos other costs,53.091435421582
+102322,warr reserve post,cos insurance,48.8106898852301
+0017100100,cip building,cos insurance,48.9907641966335
+101771,acc depn cc hw gaap adj,cos insurance,35.79804402415
+230500,property tax payable,cos other costs,25.2900390358933
+102840,ic payable rec indefna,cos insurance,31.7241457465643
+100304,chnet citibank eur xxxxxxxx,cos other,26.7876790702686
+105201,inventory provisions rm,cos insurance,24.99297583972
+0017700102,ad building improvement manual,cos other costs,47.0629153671824
+150235,accumulated depreciation surgical demo equip,cos insurance,50.7420618121545
+100155,vpii cad td,cos other,16.6958047124021
+295900,change in accounting principle equity,cos insurance,46.0701484489081
+0010100200,operating account usd,cos other costs,15.1087962253593
+210001,trade payables manual accrual,cos insurance,32.7806254092159
+103501,inventory reval accum amort,cos other,38.3244909880191
+102301,accrued vacation,cos insurance,45.9171350021054
+106000,prepaid insurance excl workers comp,cos insurance,43.4655612179005
+170010,advances to affiliate accr int,cos insurance,22.7812777917957
+102000,allowance for doubtful accounts trade receivables,cos insurance,56.118881103941
+100320,le access bank bc,cos insurance,43.7222047722733
+120310,computer software,cos insurance,52.3091608872947
+241000,deferred income taxes us federal st liability,cos insurance,33.1074638576008
+106300,prepaid marketing advertising promotions,cos insurance,24.2742434340862
+130550,product brands,cos insurance,27.3197879875584
+102210,accrued commission,cos insurance,46.3813878036768
+135500,accum amort product rights,cos other,44.0164118800764
+102304,sale dsc rsv inc begbal,cos insurance,49.4327889888746
+282400,non current deferred tax liability non us,cos insurance,31.3122942260383
+103924,inventory suspense other loc,cos insurance,28.1258972502781
+100260,fra citibank eur,cos other costs,22.8411712256809
+100179,uk citibank eur,cos insurance,36.9963655427377
+230363,accr liab vat clearing r,cos insurance,27.2174049096029
+280390,long term unearned lease income,cos other costs,29.5141909159201
+103890,other inventory reserves icmu,cos other costs,23.0377407799199
+220010,accrued payroll,cos insurance,55.4509659718039
+102300,accured expense vc,cos other costs,43.5598472177297
+100700,cash on hand in transit,cos insurance,42.8462451562922
+101772,accumu dep cc equip sw,cos insurance,25.6456964964927
+230005,unvouchered inventory,cos insurance,32.1621572154521
+102351,sale dsc rsv pymtcy,cos insurance,51.5432238019468
+102751,defer income tax lt beg,cos insurance,22.6983211587365
+282410,lt liab uncertain tax position,cos other costs,17.8213477457969
+0017500107,ad molds tools and dies,cos insurance,46.1901843038021
+0011200120,ar reval fx other,cos insurance,25.7620437914465
+101761,cc equipment hw,cos insurance,29.9257136729552
+0014590109,capitalized ppv,cos insurance,49.8906158455993
+0022100101,accrued liabilities,cos insurance,40.8628703488361
+101013,tsa contra ar obagi,cos insurance,35.5728232707032
+130650,partner relationships,cos insurance,23.1104092682548
+101670,accum dep ff,cos insurance,39.7179409358029
+102470,income tax pyble provis,cos insurance,19.1752198015163
+101400,prepaid insurance,cos insurance,48.3379722485635
+0015010104,gst recv,cos insurance,40.1897716033437
+101710,accum dep machin equip,cos insurance,29.9339514810935
+101450,bl thailand,cos insurance,40.9964232591605
+130751,ppa trademarks not amortized,cos insurance,42.1611142815675
+102942,minimum pension liability,cos insurance,38.8197230755318
+220250,accrued stock options,cos insurance,27.747954393264
+100502,citi cc n it,cos insurance,25.172682541517
+282410,lt liab uncertain tax position,cos other costs,17.7812088868339
+106600,none,cos insurance,26.9951969210859
+170000,advances to subsidiaries lt,cos insurance,20.4673156660909
+130100,patents,cos insurance,45.5390840434728
+120100,buildings,cos insurance,36.4569908673969
+102331,sales return res vc pro,cos insurance,34.6524377053059
+102870,capital control,cos other costs,37.6697508632937
+102870,acquisition equity holdin,cos insurance,33.9857756996697
+230891,us rebates res mnged care com,cos other costs,18.3417523334222
+102300,accrued exp ap cat,cos insurance,31.9247876573984
+102301,accrued audit,cos insurance,49.4010068066622
+103001,raw materials loc,cos insurance,36.8716557777151
+102334,sales rtn res rx bf,cos insurance,51.1195796987234
+101500,oca other receivables,cos other costs,35.6944110303223
+102750,deferred income taxes st,cos insurance,41.5442585211988
+230969,accrued promotion expenses,cos insurance,33.8417510264013
+120310,computer software,cos insurance,50.2329840061953
+0018300101,intangibles ppa,cos insurance,62.887060917841
+0017200104,land improvements manual,cos insurance,35.0107137526359
+220300,accrued payroll and social taxes,cos insurance,46.1566233786834
+101502,oca accrued receivable,cos insurance,47.9823556790573
+101850,acc depn demo deduction,cos other,34.043179881452
+230860,co op advertising reserve,cos insurance,42.547104096429
+103105,work in process loc,cos insurance,48.2390758215556
+103005,raw materials loc,cos insurance,37.8912648269984
+101151,accounts receivable trade,cos insurance,47.467669798898
+103929,inventory suspense other loc,cos insurance,30.1234170410167
+0017500102,ad building improv,cos insurance,52.558368601541
+101701,machinary equipment,cos other costs,25.4472493327988
+230550,other non income taxes payable,cos insurance,36.8408964593934
+106201,oca vat input r,cos insurance,30.6849001635338
+0015500402,ico ar advance cad,cos insurance,28.9535240445542
+0015500302,inter company ar mxn manual,cos insurance,35.1235353780396
+101395,carr in ic var sol,cos insurance,50.6371094539653
+103112,inventory wip pl dpt sa,cos insurance,43.488673966509
+210410,trade payables abandoned property,cos insurance,40.8621835172203
+102870,acqusit equity holding us,cos insurance,56.1503199384626
+102314,acc rebate rx provision,cos insurance,40.7225082648826
+222060,accrued benefits life active,cos insurance,37.9416090249256
+230910,al dr rebates medicis,cos insurance,50.5176436048322
+220521,pw vision,cos insurance,41.8012073704713
+103304,finished goods loc,cos insurance,31.8914193835547
+101710,accum dep mach equip,cos insurance,36.1177393738807
+230045,accrued legal expense,cos insurance,41.1075037079458
+130200,trademarks,cos insurance,40.8276017770525
+105600,capitalized manufacturing variances fifo,cos insurance,46.2120448396895
+105200,inventory provisions fg,cos insurance,35.4783064275842
+102151,value added tax,cos other costs,30.1034246007247
+170010,advances to affiliate accr int,cos insurance,22.2914748138457
+103000,raw materials,cos insurance,41.1602342806033
+125200,accumulated depreciation furniture fixtures,cos insurance,34.0571830472617
+135501,ppa accum amort product rights,cos insurance,55.2268071157642
+210502,regional sales tax,cos insurance,32.4697360852118
+102301,accrued legal,cos insurance,40.2641059899267
+100159,vpii trea usd barclays,cos other,46.6504944510401
+106620,sample sundry and starter kit inventory net,cos insurance,31.7767082052392
+103975,inventory samples,cos insurance,32.7323307652375
+103136,inventory wip pl cangene,cos insurance,36.6912624938492
+106204,oca vat input r,cos insurance,31.3159311833666
+0044310101,retained earnings prior year,cos other al,47.7578970709865
+220520,pw dental,cos insurance,33.5690091617324
+102270,accrued bonus aicp,cos insurance,49.4602928530247
+0017100112,laboratory testing equipment,cos insurance,34.3401575873089
+210100,trade payables clearing,cos insurance,37.3849903328114
+120800,fixed asset clearing,cos insurance,49.3973185573447
+102471,income tax payable pro py,cos insurance,27.4336441472944
+103303,finished goods loc,cos insurance,30.8313583097306
+120000,land,cos insurance,44.3620121481452
+102901,retained earnings,cos insurance,46.0673096972282
+282410,lt liab uncertain tax position,cos insurance,21.6988814334259
+101821,leasehold improvements,cos other costs,30.7273485060282
+101510,other receivable,cos insurance,38.3340152208931
+230070,accrued marketing,cos other al,44.7372372081212
+230100,accrued warranty expense,cos insurance,52.233419098015
+230882,sales returns reserve ecr,cos other,43.3493924937369
+210001,trade payables manual accrual,cos insurance,30.9980354634921
+103144,inventory wip pl bay cities,cos insurance,33.272269126287
+280700,other long term liabilities,cos insurance,44.3145997788571
+102300,audit fees provision,cos other costs,36.4301937981532
+220400,accrued workers compensation,cos insurance,43.7533422021769
+210001,trade payables manual accrual,cos insurance,32.3570067359572
+230920,al inventory,cos other,32.6384589298086
+101160,ar trade deferred lease,cos insurance,20.1170862238471
+101450,bl philippines surgical,cos insurance,40.3388699670996
+242000,current income taxes payable,cos insurance,33.6273410811792
+105202,inventory provisions wip,cos insurance,26.5977892464195
+102150,wholding tax payable,cos insurance,27.4709300761958
+103138,inventory wip pl dpt labs med,cos insurance,42.0182420843056
+101820,leasehold improvement,cos insurance,41.0752166448996
+0017100110,computer software,cos other costs,48.0445744365814
+103142,inventory wip pl piramal hc,cos insurance,31.3290967213337
+0015010101,hst recv,cos other costs,24.8135530180917
+230960,st contingent consideration,cos insurance,27.2033476239723
+120910,capital in process,cos insurance,38.0197763404633
+103100,work in process,cos insurance,56.0533296712256
+103920,inventory suspense other,cos insurance,46.2259545853922
+135400,accumulated amortization of supply agreement,cos insurance,37.4551046924249
+102331,sales rtn res vc rel,cos insurance,50.5764935054159
+102221,national pension payable,cos insurance,25.2507417896182
+0017600104,ad computer software ppa,cos insurance,60.2670252896149
+0014590102,active ingredients,cos insurance,28.46292825051
+101460,demo equipment,cos other costs,46.9785255278326
+100640,sol svb merchant,cos insurance,28.6352441837668
+100385,polnd citi pln,cos insurance,33.7289052760211
+101203,bad debt reserve bankrupt,cos other costs,20.2711794920517
+106207,vat input intermediate,cos insurance,31.9767093875352
+101450,solta medical intl ltd,cos insurance,28.0691780232954
+280101,lt def comp execs directors,cos other,17.5141654784299
+242450,non us local taxes payable,cos other,20.9893675711601
+101450,bl taiwan,cos insurance,34.9472038894543
+10230B00,cpn rbt rsv begbal,cos other,46.3752707605367
+101770,accum dep software,cos insurance,38.5897635100388
+230900,other accrued expenses,cos insurance,32.799066652135
+0044310102,retained earnings prior year manual,cos insurance,41.3229501119893
+0017700105,ad computer hardware manual,cos insurance,52.133889799813
+102470,income tax pyble pymtcy,cos insurance,21.3244231158386
+103135,inventory wip pl aai,cos insurance,31.868062623075
+101450,bl australia pty ltd,cos insurance,40.3523368909051
+130550,product brands,cos insurance,26.0780456539823
+102330,sales ret res vc beg,cos insurance,42.4282597662682
+230850,coupon reserve,cos insurance,53.1737402443769
+230830,accrued performance stock grants,cos other costs,24.2946415938484
+103900,inventory suspense,cos insurance,35.9786272514799
+220275,accrued payroll defined contribution plan,cos other costs,34.0600457920493
+102102,accounts payable trade,cos insurance,27.7111314642208
+0016600100,investment in subsidiary,cos insurance,31.3312458097753
+101772,acc dep computer software,cos insurance,46.791226230245
+280700,other long term liabilities,cos insurance,45.2243332034827
+150325,long term minimum lease payments receivable,cos other,32.1307213345921
+103129,inv wip pl apriso salix,cos insurance,52.1931156587559
+100306,net db x border eur,cos insurance,40.9354256484008
+145900,facility deposits long term,cos insurance,39.6728797280775
+222070,accrued benefits pension,cos insurance,33.9364209168921
+230860,co op advertising reserve,cos insurance,42.7522246694963
+150325,long term minimum lease payments receivable,cos insurance,36.3226546348961
+102103,accrued liab pension cost,cos insurance,29.343505708583
+0016100103,prepaid in proc rd,cos insurance,47.0576354382408
+220365,accrued state unemployment insurance,cos insurance,40.6862259299283
+135100,accumulated amortization of patents,cos other costs,38.7738907875818
+230885,sales discounts reserve,cos insurance,37.3296571889114
+103722,finished goods in transit loc,cos insurance,40.6201205374046
+101015,tsa receivable obagi,cos insurance,35.735111761777
+130701,ppa outlicensed technology,cos insurance,54.4900361343689
+242450,non us local taxes payable,cos insurance,24.6776019221035
+102300,accrued exp ap su,cos insurance,35.1406209294956
+107200,advances and deposits,cos insurance,40.8935334900104
+0031220106,grir intercompany,cos insurance,37.6869381796668
+106820,other current assets dta,cos insurance,41.3867371467438
+0014310104,semi finished products ic purchase,cos insurance,24.1938617516331
+0031220101,grir inventory,cos other al,45.3708333246732
+100302,chbel citibank eur,cos insurance,32.1292304709477
+0014310108,semi finished products rd party purchase,cos insurance,35.6446334056189
+102300,accrued exp ap rx,cos insurance,38.7262217522429
+102270,accrued bonus performance,cos insurance,50.2978595992257
+101395,carr in ic var lens,cos insurance,48.184815719546
+101831,acc amor lhi,cos insurance,23.016758669393
+103137,inventory wip pl cpl,cos insurance,42.3635159431097
+220900,accrued payroll deductions other,cos other costs,38.551227975745
+230883,sales returns reserve solta,cos other other,30.8641551614611
+294650,intercompany clearing,cos other,30.4953702622726
+135551,ppa accum amort product brands,cos insurance,58.4997313884629
+280110,other liabilities dtl,cos insurance,29.0630854283811
+100305,net citibank eur,cos other costs,29.0616556251489
+102334,sales rtn res rx prov,cos other costs,46.865476863352
+150000,receivables due after one year,cos insurance,30.9759364191611
+102900,retained earning,cos insurance,45.7148807754985
+0014560119,raw goods transit,cos insurance,28.9406523415834
+290000,capital stock,cos insurance,52.2129301247274
+103921,inventory suspense other loc,cos insurance,28.1487292061543
+0017600103,ad computer hardware ppa,cos insurance,52.5699105178371
+230844,deferred service revenue,cos insurance,48.7952600721278
+230600,accrued interest,cos insurance,39.6430590853433
+103450,finished goods step up,cos insurance,34.98888677762
+103840,finished goods icmu,cos insurance,47.4664606755259
+102314,sale dsc rsv pymtcy,cos insurance,51.1276289863281
+270000,advances from subsidiaries lt,cos other,18.8008221070707
+125300,accumulated depreciation machinery equipment,cos other,40.6445110014041
+295100,acquistion equity holding,cos insurance,57.9124430120294
+101931,accumu amor good will,cos insurance,21.2538142564225
+100404,por bsant,cos insurance,28.2523162653138
+102810,capital stock,cos insurance,53.3828683452035
+0018200120,goodwill manual,cos insurance,44.3203768838498
+100164,vpii trea usd chase,cos insurance,56.3255268757352
+222070,accrued benefits pension,cos insurance,35.125654425527
+100156,vpii usd td,cos other,41.9744226732645
+100157,vpii treasury usd td,cos insurance,52.4017257614994
+103165,inventory wip pl halo,cos insurance,38.0251799725303
+102260,accrued vacation,cos insurance,47.2013074953081
+103145,inventory wip pl nippon chem,cos insurance,39.0219366642903
+125310,accumulated depreciation computer software,cos insurance,45.8359557371521
+135701,ppaaccum amort outlicensed tech,cos other,52.6524761307488
+107100,customer notes drafts receivable,cos insurance,33.0840977186634
+103315,finished goods capitalized freight duty,cos other costs,44.4671036839465
+106800,other current assets,cos insurance,40.3914832295094
+101405,accounts receivable refunds adjs,cos insurance,37.9317924706254
+105500,capitalized ppv,cos insurance,48.7486465775533
+102470,income tax payable,cos insurance,33.7976362684004
+280710,lt contingent consideration,cos insurance,26.6908352058053
+250100,intercompany payables unvouchered inventory,cos other,32.9392316783898
+101850,accumulate dep demo equip,cos insurance,46.5582284420456
+0021500115,accrued accounts payable manual,cos insurance,30.098232727547
+242560,st liab uncertain tax position,cos insurance,22.5329803914745
+106506,prepaid inventory,cos insurance,34.5736083843458
+106505,prepaid spare parts tooling inv,cos insurance,24.514472241975
+101820,long lived assets,cos insurance,50.5932431470931
+102301,accrued legal,cos insurance,37.2602938143766
+270010,advances from affil accr int,cos insurance,24.3805092304532
+106005,prepaid escrow payments,cos insurance,27.1978434297446
+103002,raw materials loc,cos insurance,36.7342725540647
+0017600121,fixed assets ad manual building,cos insurance,51.8569296631522
+230892,us rebates res mnged care part d,cos insurance,21.2903716933468
+240000,dividends payable,cos insurance,33.3769664417806
+101762,cc equipment sw,cos insurance,40.0652198898201
+102211,accrued commissions,cos insurance,47.428674035946
+0017300104,computer hardware ppa,cos other al,45.4523960341975
+101500,other current assets,cos insurance,40.0269925734257
+101420,unapplied cash,cos insurance,41.5846945383248
+160000,investments in subsidiaries,cos insurance,30.3936011284458
+103103,work in process loc,cos insurance,49.4718430947985
+103147,inventory wip pl ics special,cos insurance,41.5635001609478
+0031210106,ap trade mxn man,cos insurance,28.9251140489815
+102360,def revenue chn su rel,cos other costs,38.7656033672086
+101660,furniture fixtures,cos insurance,51.066558700979
+101810,accum dep leased asset,cos other,31.5255066538041
+230600,accrued interest,cos insurance,40.0431606452167
+103161,inventory wip pl pii,cos insurance,39.8135053619859
+0017300121,fixed assets manual building,cos insurance,41.4418949196286
+260200,bonds and debentures,cos insurance,26.1806368260005
+242540,state tax surgical,cos insurance,19.1106212058942
+0011100100,ar trade cad,cos other,25.4614450613162
+109900,intercompany unbilled pending disposition,cos other costs,32.9561927649019
+103126,inv wip pl glumetza salix,cos insurance,35.0072430534966
+0018300121,intangibles ppa man,cos insurance,60.9591602559916
+242000,current income taxes payable,cos other costs,29.6712709443247
+0021500105,accd retirement sav pln employer,cos insurance,20.1817505930783
+100192,elc hsbc eur account,cos insurance,24.7495739077479
+160000,investments in subsidiaries,cos insurance,31.2220267873089
+150240,deferred loan cost,cos insurance,50.3767649087327
+103302,finished goods loc,cos other al,29.2993742363391
+291000,partnership capital,cos insurance,38.0085545745024
+130300,customer lists,cos insurance,32.4424133554386
+103301,finished goods loc,cos insurance,31.1948463012456
+294250,minimum pension liability,cos insurance,38.0390015485431
+102751,deferred tax lt assets,cos insurance,30.3704059746172
+0015200101,terms receivable,cos insurance,35.6033203829717
+280400,mtn liabilities,cos other al,28.799300931301
+280847,lt deferred income,cos insurance,48.0079520435755
+0017300103,furn fix ppa,cos other,56.2009023428292
+100159,vpii trea usd barclays,cos insurance,49.9404881359681
+101151,accounts receivable trade,cos insurance,46.4863132513424
+280375,liability post retirement fas,cos insurance,18.3052911810013
+285500,retained earnings,cos insurance,45.9122252981836
+102470,income tax payable beg,cos insurance,32.2248183717869
+294375,unreal holding invest gain,cos insurance,24.5521144783818
+150240,deferred loan cost,cos insurance,50.6386798013464
+101450,bl singapore,cos insurance,36.9277327949893
+101401,prepaid insurance,cos insurance,50.0892900798754
+230870,advertising reserve,cos insurance,45.4268752464794
+103922,inventory suspense other loc,cos insurance,30.7949828493948
+0017500108,ad laboratory testing equipment,cos insurance,39.574262756886
+130550,product brands,cos insurance,26.3903778972344
+280710,lt contingent consideration,cos other costs,25.7414551747827
+230364,accr liab vat clearing r,cos other,25.7084377136093
+125310,accumulated depreciation computer software,cos insurance,45.2820513935982
+101395,carriage in ic lens,cos insurance,34.6960920258964
+101440,current minimum lease payments receivable,cos insurance,40.5115392755044
+102900,retained earning,cos insurance,42.9137214023518
+101771,accumu dep cc equip hw,cos insurance,32.6509537184835
+102300,accrued legal expense,cos other,37.5603812458527
+106010,prepaid workers compensation,cos insurance,27.5322650212067
+230650,accrued relocation expense,cos insurance,54.3540724967696
+0021500116,dpsp payable,cos other costs,21.6280278160643
+230842,deferred income,cos insurance,53.2841263181344
+100158,vpii treas inv usd,cos insurance,25.905691660355
+135551,ppa accum amort product brands,cos insurance,58.5070960563701
+101395,inv carr in ic cat,cos insurance,54.6527642088363
+200100,notes payable,cos insurance,32.0751553359791
+230352,accr liab vat payable r,cos other al,37.141443524844
+0016100100,deposits,cos other costs,29.704929255695
+102301,accrued advertising,cos other,39.7438478661492
+102103,accrued pw insurance,cos other,36.6666309477244
+130201,ppa trademarks,cos insurance,58.7670410760902
+0014650999,adjust valuation class,cos insurance,22.5959963181485
+150250,acc amort deferred loan cost,cos other al,38.0539500180295
+101940,oth asset demo depn bf,cos insurance,30.4551441840334
+103890,other inventory reserves icmu,cos insurance,30.2183429768207
+103844,inventory samples icmu,cos insurance,32.368810448375
+101511,deferred inc tax lt beg,cos insurance,33.6859892884903
+103153,inv wip pl relistor salix,cos insurance,49.0999071772556
+103116,inventory wip pl dpt labs,cos other,44.9233441887317
+0021500110,accrued property tax,cos insurance,38.3102681267979
+282000,non current deferred tax liability us federal,cos insurance,32.812918449996
+0028200100,contingent consideration long term,cos other al,27.5095523647747
+102314,chgbk contprcgrsv begbal,cos insurance,37.2549852296341
+0014310101,semi finished products in house production,cos insurance,24.2494307759232
+210010,"due from l' oreal contra ap account",cos insurance,21.4880121879829
+100181,ireland hsbc cad,cos insurance,27.1196449575191
+101009,citibank mmda,cos other costs,47.0536969973837
+220340,pw state quarterly,cos insurance,39.9683263115504
+294375,unreal holding invest gain,cos other,19.9725346573105
+125150,accumulated depreciation leasehold improvements,cos other costs,30.0114436432553
+0015500303,inter co ar mxn man,cos other costs,31.625561285773
+260800,other long term debt,cos insurance,53.2848731837811
+291000,partnership capital,cos other,25.7145613420244
+230645,accr severance non restructu,cos insurance,30.2513173032941
+101710,accum dep off equip,cos insurance,35.5744473056157
+101180,ar early payment discount,cos insurance,26.8807688774427
+100057,cor jpmc disburse,cos insurance,34.3989949170109
+210200,trade payables payroll clearing,cos insurance,31.2905685108501
+103155,inventory wip pl dpt sa eisai,cos insurance,35.3592035375144
+230020,accrued utilities water,cos insurance,43.5001477304161
+102270,accrued bonus non aicp,cos insurance,44.7102601862909
+220210,accrued non aicp bonuses,cos insurance,38.2340297870545
+102302,sale dsc rsv begbal,cos insurance,52.2049758170256
+103501,inventory reval accum amort,cos insurance,40.8775964187182
+103104,work in process loc,cos insurance,46.2757517514049
+103845,finished goods in transit icmu,cos insurance,36.0750783223679
+103115,inventory wip pl dsm,cos insurance,34.6195046105896
+101430,accounts receivable deduction outstanding,cos insurance,32.16227982783
+103163,inv wip pl xifaxan salix,cos insurance,49.4867195730116
+130651,ppa partner relationships,cos insurance,58.6929795494176
+0014590110,capitalized mfg variances,cos insurance,39.8394887119654
+103320,finished goods on consignment,cos insurance,30.5868321688379
+135200,accumulated amortization of trademarks,cos insurance,40.0692721165069
+103720,finished goods in transit,cos insurance,41.3512200680493
+103501,inventory reval accum amort,cos insurance,41.0082681326536
+0021100301,ap ic revaluation foreign exchange mxn,cos insurance,27.5843778815674
+106214,regional recoverable tax,cos insurance,40.4130643568701
+103500,inventory reval gross,cos insurance,47.4659600148945
+135401,ppa accum amort supply agreemt,cos insurance,56.7183037667267
+101490,deposits,cos insurance,37.2031508402779
+220825,pw united way,cos insurance,35.2660513699481
+101771,acc dep equip us gaap rep,cos other costs,33.5650136462095
+101850,accum dep demo equip,cos insurance,42.4640938604551
+210504,regional sales tax,cos insurance,37.7114966673017
+0021500107,accrued workers compensation,cos other,40.6876430453164
+101450,bl india,cos other costs,41.3662196815892
+100336,transition bank account,cos insurance,47.2582667647279
+106450,prepaid royalties,cos insurance,35.0854003552361
+220200,accrued aicp bonuses,cos insurance,38.2816732951803
+0015500202,inter company ar usd manual,cos insurance,28.5971726084979
+135301,ppa accum amort customer lists,cos other costs,52.5985923833906
+260200,bonds and debentures,cos insurance,25.8019734620396
+0017700107,ad molds tools dies manual,cos insurance,52.0513455661768
+220850,al employee stock purchase,cos insurance,24.0738668734465
+101504,oca advance payment,cos other,43.3006973526567
+220320,pw state weekly,cos insurance,44.2019406069283
+103108,work in process loc,cos insurance,48.792968029259
+100700,cash on hand in transit,cos insurance,44.0021501096805
+102330,sales rtn reserve pymtcy,cos insurance,54.2090956669695
+103124,inv wip pl fenoglide salix,cos other costs,47.503926306049
+100028,istap svb,cos insurance,38.3834791003439
+220700,pw savings investment plan,cos other,31.9471556363444
+101770,accum dep hardware,cos insurance,34.0178147141347
+101000,shinhan bank,cos insurance,26.9330735251859
+106210,vat claimed awaiting refund,cos other costs,21.3733222905963
+102322,acc warranty begin bal,cos other,33.5260331178499
+240005,intercompany dividends payable,cos insurance,34.2431762193185
+242400,non us income taxes payable,cos insurance,25.8350474035974
+150225,surgical loaner equipment,cos insurance,48.5861876573149
+0017200107,machinery and equipment manual,cos insurance,40.9203019324078
+220200,accrued aicp bonuses,cos insurance,39.3790122892063
+0015500120,ar ic reval fx other,cos insurance,23.8348583834493
+125200,accumulated depreciation furniture fixtures,cos insurance,38.886973145552
+210010,"due from l' oreal contra ap account",cos other costs,16.9025825079409
+103400,inventory returns,cos insurance,41.0435165129576
+0031220112,grir ic manual,cos insurance,28.0209089552686
+135501,ppa accum amort product rights,cos insurance,56.2169989700933
+130501,ppa product rights,cos insurance,59.5170560182536
+0017700103,ad machinery and equipment manual,cos insurance,49.2028811997651
+101381,freight in pharm,cos other,37.8313076947334
+222060,accrued benefits life active,cos insurance,36.6571327864287
+109000,intercompany receivables st,cos insurance,34.9791536665156
+230685,accrued fringe pool,cos insurance,40.482214413759
+103133,inventory wip pl form sol,cos other costs,35.6604808685976
+294650,intercompany clearing,cos insurance,33.8327295969998
+101711,accumulated dep m e,cos other,22.7671475321498
+102300,tax fee provision,cos other,25.2583996217303
+220850,al employee stock purchase,cos insurance,23.6222750460041
+120305,computer hardware,cos insurance,50.7234808045201
+102832,additional capital,cos insurance,47.4310351438181
+125100,accumulated depreciation buildings,cos insurance,38.7886719633632
+100040,syn regions usd,cos insurance,31.9531939845045
+102311,acc rebate vc bf,cos insurance,44.2640043773469
+103139,inventory wip pl el solutions,cos insurance,43.3772575413794
+120305,computer hardware,cos other al,48.9064551284476
+292000,paid in capital,cos insurance,30.8150764814931
+101791,acc depn trans gaap adj,cos other al,32.2125636631732
+230065,accrued research development,cos insurance,36.4244234790071
+104300,finished goods transfer price,cos insurance,44.7329803689691
+101450,bl japan co ltd,cos insurance,37.2791080491128
+0017100109,computer hardware,cos insurance,48.1751488935652
+102300,other payable,cos insurance,27.4531783212315
+102681,aro liability pymtcy,cos other costs,29.609597993844
+0021500114,accrued accounts payable,cos insurance,35.0997053793086
+106210,vat claimed awaiting refund,cos insurance,29.5295148700584
+100610,ora cash orapharma,cos insurance,30.9058678812108
+230826,accrued program costs,cos insurance,26.2791146846625
+106220,prepaid building taxes,cos insurance,41.7956160206869
+270000,advances from subsidiaries lt,cos insurance,22.416673030889
+106550,employee store inventory,cos insurance,28.1468972966659
+109000,intercompany receivables st,cos insurance,35.3285650685471
+230640,global svc employee reserve,cos insurance,42.6217541633904
+280110,other liabilities dtl,cos insurance,29.2420615760459
+295500,intercompany dividends,cos insurance,27.7329319255568
+170500,intercompany receivables lt,cos insurance,34.2507846918395
+259900,intercompany unbilled pending disposition,cos insurance,36.0811209265951
+103841,inventory reval gross icmu,cos insurance,38.8203847614044
+135100,accumulated amortization of patents,cos insurance,42.6719131463802
+102100,ap coupon rebate accrual,cos insurance,44.710104734253
+280250,additional pension liability,cos insurance,26.1017349043249
+106505,prepaid spare parts tooling inv,cos insurance,25.1813116246363
+0010100201,cheques outstanding usd,cos insurance,24.4598628441492
+100321,le access bank bc,cos insurance,47.6554624030675
+103309,finished goods loc,cos insurance,28.6393664194194
+280300,excess pension long term,cos insurance,37.6009060453784
+0018400100,amort patents,cos insurance,48.9011975965598
+150770,lt restricted cash,cos insurance,36.0758551046952
+101502,oca accrued receivable,cos insurance,47.6884836282544
+210000,trade payables,cos insurance,45.7934448519815
+102351,chgbk contprcgrsv pymtcy,cos other other,27.0241620379554
+120100,buildings,cos other,31.3052776772295
+220546,fsa contributions,cos other,27.8312659062708
+100441,lux hsbc eur,cos insurance,38.0166826477178
+230844,deferred service revenue,cos insurance,49.8633527990313
+230850,coupon reserve,cos insurance,51.9000631106583
+101012,tsa contra ar sprout,cos insurance,48.0695310864198
+230046,accrued audit expense,cos insurance,45.8422204316403
+102325,deferred revenue provn,cos insurance,45.6928559472523
+230940,al deferred rent,cos other,39.9650043307984
+101396,duty lens,cos other costs,17.6047880511926
+102272,accrued incentive scheme,cos insurance,39.8450550712257
+222000,accrued benefits medical active,cos insurance,45.3920087960246
+230912,al alt fulfillment medicis,cos insurance,35.6757804522635
+102103,emp pension withholding,cos other costs,21.453182671798
+220350,pw fica taxes ee,cos other costs,41.6799311733781
+230040,environmental health safety reserve,cos insurance,47.2939497504011
+103300,finished goods,cos other al,28.554268631097
+120000,land,cos insurance,44.477458025164
+101405,accounts receivable refunds adjs,cos other,35.7647276069934
+135650,accum amort prtnr relatinshps,cos insurance,40.4142858241096
+103723,finished goods in transit loc,cos insurance,40.2216367982371
+230500,property tax payable,cos insurance,24.6407703823153
+210410,trade payables abandoned property,cos other costs,38.0557498033525
+0031210120,ap reval foreign exchange other,cos other costs,21.487823486826
+220100,accrued salaries wages,cos other,39.4614400581185
+100501,bpm cc n,cos insurance,36.7669714496254
+0014080105,finished products reserve,cos insurance,44.9433488075297
+102471,income tax payable rel py,cos insurance,26.7460252588769
+230000,accrued te vouchers payable,cos insurance,38.892555449373
+120150,leasehold improvements,cos insurance,35.3739562159996
+102291,epf payable cpf payable,cos insurance,28.0646830190701
+220275,accrued payroll defined contribution plan,cos other costs,35.6128145714485
+135500,accum amort product rights,cos insurance,49.3497426554285
+102340,gs gst on purchase,cos insurance,32.3470336908759
+0025010101,hst payable,cos insurance,31.9641327973084
+0021100200,inter company ap usd,cos other,18.9786300823763
+230966,tricare accrual,cos insurance,25.6735372783758
+0034780145,other accrued liabilities accounting,cos insurance,42.8856093629364
+10232B01,st yr warr ac solta prov,cos insurance,22.6756865548364
+0017500106,ad computer software,cos insurance,49.6612895804098
+103721,finished goods in transit loc,cos insurance,40.1427529799797
+102270,accrued bonus,cos insurance,50.1160925678572
+102325,deferred revenue release,cos other costs,41.4415746273867
+101850,acc depn demo begin bal,cos insurance,46.8090585526059
+150800,other long term assets,cos insurance,54.5759465312041
+101160,ar trade deferred,cos insurance,34.9269091698672
+100303,chbel citibank london eur,cos insurance,36.168084758584
+0021100302,inter company ap mxn manual,cos insurance,34.5419731899493
+125305,accumulated depreciation computer hardware,cos other al,46.1929406434741
+150750,prepayments beyond one year,cos other,41.1404639830491
+120200,furniture fixtures,cos insurance,51.3813174584089
+0014590112,standard revaluation inventory amortization,cos insurance,38.6770264951142
+101831,accumulated amor lhi,cos insurance,23.4199705818157
+101769,computer hw us reporting,cos insurance,50.6431321319805
+270000,advances from subsidiaries lt,cos other costs,19.1777000800179
+0010100202,bank revaluation foreign exchange usd,cos insurance,29.5091265346649
+230885,sales discounts reserve,cos insurance,35.3912084651162
+210100,trade payables clearing,cos insurance,28.2500205969459
+10236B02,def revenue solta bf,cos insurance,46.2626651368106
+230052,accr contract termination fees,cos insurance,28.3851644971309
+125200,accumulated depreciation furniture fixtures,cos other,31.4847292922822
+135401,ppa accum amort supply agreemt,cos other,53.8222762958936
+100249,dis citibank aed dubai,cos insurance,43.4522662467788
+102100,ap coupon deposit,cos insurance,28.6567674873438
+0017100111,molds tools and dies,cos other costs,36.2058293605368
+103122,inv wip pl zegerid salix,cos insurance,45.4832443495853
+210300,deposits and advance collections,cos insurance,48.9461212161364
+100163,vccp td cad,cos other,23.8259495662893
+150250,acc amort deferred loan cost,cos insurance,39.5046599482116
+0014310114,semi finished products manual,cos insurance,28.6651972158521
+106810,restricted cash,cos insurance,44.7314306921647
+125300,accumulated depreciation machinery equipment,cos other,40.5592436186585
+100205,no handelsbankden nok,cos insurance,33.2872481942217
+230675,accrued insurance expense,cos insurance,47.9355611384807
+0017600124,fixed assets ad manual me,cos other costs,41.2791428827521
+101460,demo equipment solta,cos insurance,40.6898333215184
+103842,inventory reval acc amort icmu,cos insurance,35.5478098327639
+101940,deposit,cos insurance,24.8444315546955
+103846,consigned stock icmu,cos insurance,30.1419841484704
+106000,prepaid insurance excl workers comp,cos insurance,43.9366556461083
+101760,purchased software,cos insurance,39.8322737670735
+102300,accured exp aprom,cos other,24.1676400058518
+100750,cash equivalents,cos insurance,52.5248616458269
+210502,regional sales tax,cos insurance,31.3750016713019
+0014010110,finished products manual entry,cos insurance,36.6179138198973
+220525,pw disblty ltd std,cos insurance,36.2378383723747
+250100,intercompany payables unvouchered inventory,cos other al,33.8185297842382
+102810,capital stock,cos insurance,53.5731675699635
+270010,advances from affil accr int,cos other costs,23.10993045153
+135700,accum amort outlicensed tech,cos insurance,46.3500739179135
+102681,aro liability begin,cos insurance,42.153416053145
+102681,aro liability provis,cos other costs,40.697766850445
+220150,accrued commissions,cos insurance,47.4660736361662
+101422,prepaid tax vat,cos insurance,30.0595189862236
+0017600101,ad mach equip ppa,cos insurance,60.9166715958791
+222005,accrued benefits st disability,cos insurance,39.1242196834477
+250000,intercompany payables st,cos insurance,33.8583747789104
+230893,us rebates reserve medicaid,cos insurance,29.9231035628502
+0014310199,int profit inv semi,cos insurance,25.4839877372274
+101510,deferred income taxes lt,cos insurance,42.482576213735
+102300,accrued expense su,cos insurance,49.6956344752883
+135200,accumulated amortization of trademarks,cos insurance,39.9711079795904
+101000,cash in bank citi usd,cos other al,53.9271679289484
+222075,accrued benefits pension admin,cos insurance,36.0850957103134
+0017100103,land,cos insurance,45.4898961741907
+100009,cor northern trust,cos insurance,24.3784411973728
+105801,local fiscal inv val adj acccum,cos insurance,26.9127292958097
+220100,accrued salaries wages,cos insurance,43.5425040388211
+101830,accum dep leasehold,cos other,25.6535818036751
+103164,inventory wip pl mipharm,cos insurance,22.2042917046492
+0015200102,miscellaneous receivables usd,cos insurance,30.6762844390983
+150230,accumulated depreciation surgical loaner equip,cos insurance,44.3925343550838
+0018400101,amort intang ppa,cos other,50.7889083584053
+103002,raw materials loc,cos insurance,38.3469086909467
+102900,retained earning,cos insurance,44.7861444502813
+101394,carriage in ic var rx,cos other,36.1807560397602
+230945,cease use liability short term,cos insurance,40.0004830556161
+130301,ppa customer lists,cos insurance,51.5250872269659
+120100,buildings,cos insurance,33.5431932241402
+103100,work in process,cos insurance,56.5137050631669
+295100,acquistion equity holding,cos insurance,59.2326302641742
+130000,goodwill,cos insurance,44.9266456332273
+102870,acq equity holding apsur,cos insurance,36.9514875006139
+220360,accrued er fica fui sui,cos insurance,48.3603730999309
+101760,computer hardware,cos insurance,51.2605005479135
+102300,accured legal expense,cos insurance,40.9098752267955
+101401,prepaid insurance,cos insurance,47.9414358651778
+101450,bl korea ltd,cos other costs,29.0994070303305
+230030,accrued utilities fuel,cos insurance,35.3692142763707
+230350,vat payable,cos insurance,24.8477844215879
+105200,inventory provisions fg,cos other costs,30.5243617365268
+103158,inventory wip pl other,cos insurance,33.3344400374929
+150750,prepayments beyond one year,cos other,43.1142099123792
+230450,federal excise tax payable,cos other,25.6568124416661
+103976,inventory samples manual,cos other,36.9186310645041
+106100,prepaid rent,cos insurance,46.4340444497539
+135201,ppa accum amort trademarks,cos other,54.7458240165205
+104301,finished goods transfer price loc,cos insurance,39.0867520202224
+102100,allowance for uncollectible current lease payments,cos insurance,37.6426619313255
+106015,prepaid insurance escrow payments,cos other costs,28.4252990157615
+102300,other payable,cos insurance,25.8527353421821
+0017200105,building manual,cos other,36.9363074575736
+220700,pw savings investment plan,cos insurance,35.3718830411764
+100701,cash on hand in trans bc,cos insurance,33.3150302888459
+100625,tax disbursement,cos other,27.7300328783641
+100401,por citibank lis,cos insurance,49.4233350025954
+0010100300,operating account mxn,cos insurance,27.9297422769063
+101001,trade ar internet,cos insurance,30.1170653928812
+0021100300,inter company ap mxn,cos insurance,30.5743801735835
+260200,bonds and debentures,cos other costs,22.0380653432518
+210011,tsa contra ap sprout,cos insurance,49.9245736081837
+120500,assets leased to others,cos other,38.0712486474039
+103900,inventory suspense,cos insurance,37.62273000163
+130100,patents,cos insurance,46.9671511936507
+101250,profit share receivable,cos insurance,25.3623781797472
+102312,disc allowance provision,cos insurance,41.3560488692621
+230860,co op advertising reserve,cos insurance,40.854578918731
+210000,trade payables,cos insurance,44.6495121144476
+106810,restricted cash,cos insurance,42.4503279569291
+220546,fsa contributions,cos insurance,30.2797506277812
+102351,cpn rbt rsv begbal,cos insurance,48.4593627378969
+102351,chgbk contprcgrsv provis,cos insurance,33.4730596840483
+101422,prepaid tax vat,cos insurance,31.232517967722
+210503,regional sales tax,cos insurance,37.9523107483943
+100648,sol svb smi uk gbp,cos other,22.3574187406267
+103154,inventory wip pl catalent,cos insurance,37.1638925443727
+294700,intercompany payables indefinite nature,cos insurance,40.2912522277133
+0025600100,withholding tax payable,cos insurance,33.0176327531817
+102870,acq equity holding,cos insurance,43.3335520571837
+101490,deposits,cos insurance,36.9916874717537
+270500,intercompany payables lt,cos other costs,32.2519286436567
+100633,vpi cash citibank eur,cos other costs,34.9847466427625
+101002,trade ar legacy valeant,cos insurance,35.7641800509203
+125500,accumulated depreciation assets leased to others,cos insurance,45.3134813206503
+295000,retained earnings,cos insurance,45.0285432003154
+0017100108,furniture fixtures,cos other,47.4211995735574
+0014010103,fin prod ih prod pending shpmt to grp co,cos insurance,17.3346341339641
+101860,construction in progress,cos insurance,36.9764412983778
+100183,hsbc ireland eur,cos insurance,30.7244704476224
+102151,value added tax,cos insurance,36.5686974769189
+100160,can citibank ap disbursements,cos insurance,47.5404532922295
+102300,audit fees provision,cos other costs,36.0694979508517
+220835,pw garnishments,cos insurance,41.2953272915746
+100601,vpi cash disbursements,cos other costs,36.4965315629173
+230959,accrued financing costs,cos insurance,47.2222000492224
+220850,al employee stock purchase,cos insurance,25.8001148342419
+101671,acc dep furniture and fix,cos other,32.8606936642937
+0031210103,ap revaluation foreign exchange usd,cos insurance,20.1332449581196
+106203,oca vat input r,cos other costs,27.7087475780982
+0015500203,inter co ar usd man,cos insurance,32.9055097725975
+103109,work in process loc,cos other al,47.0408483438339
+150236,accumulated depreciation surgical trial equip,cos insurance,33.8232472497008
+0010100301,bank revaluation foreign exchange mxn,cos insurance,32.832908277216
+120800,fixed asset clearing,cos other al,48.5497951015991
+230850,coupon reserve,cos other costs,49.9928774030769
+280350,veba,cos insurance,33.3223434449154
+135800,accumulated amortization other intangibles,cos insurance,37.1268442254872
+102313,accr dis allow su begin,cos insurance,20.9420967605779
+103105,work in process loc,cos insurance,49.2625603743603
+100052,cor jpmc ach,cos insurance,21.9222956609997
+230100,accrued warranty expense,cos insurance,50.3638130772301
+106502,prepaid other rebates,cos other,33.8136552672085
+106201,oca vat input r,cos other,26.1243744947921
+101500,ar reserve cash discounts,cos insurance,37.9875414030652
+102100,ap trade,cos insurance,26.2263019448355
+102380,accr restru res begbal,cos insurance,22.2092786184506
+100101,vcu fleet ar,cos insurance,26.044618485448
+101500,ar reserve cash discounts,cos insurance,37.7065194274778
+230055,accrued selling,cos insurance,38.3769729189749
+230820,accrued duty freight,cos insurance,34.3435256933036
+130201,ppa trademarks,cos insurance,59.0610797599422
+125300,accumulated depreciation machinery equipment,cos insurance,44.8941430090815
+100300,bel citibank eur,cos insurance,26.0699153495447
+220800,pw vacation,cos insurance,36.9409786367264
+103729,finished goods in transit loc,cos other al,38.6597538628755
+105201,inventory provisions rm,cos insurance,25.3766796585731
+106620,sample sundry and starter kit inventory net,cos insurance,32.1432392063901
+103724,finished goods in transit loc,cos other al,34.7700535610861
+102471,income tax payable rel cy,cos insurance,35.2778097317536
+260655,discount on lt debt,cos other al,22.0288271164812
+100410,spa banco sch,cos insurance,29.6360928971026
+102750,deferred income tax,cos insurance,44.726506443339
+294250,minimum pension liability,cos insurance,38.9693165006322
+135300,accumulated amortization of customer lists,cos insurance,40.3462923624769
+0021100201,ap ic revaluation foreign exchange usd,cos insurance,22.4286948016717
+130300,customer lists,cos other costs,29.7383896974841
+102301,other accrued expenses,cos insurance,33.2131860584279
+230955,accrued purchasing cards,cos other costs,35.5881169203334
+0031220111,grir manual third party,cos insurance,20.1927225952679
+130700,outlicensed technolgy,cos insurance,39.8463704018062
+102314,sale dsc rsv begbal,cos insurance,51.9327381468484
+100253,credit agricole eur,cos insurance,20.3276561581333
+106215,gst collectible,cos insurance,33.9348789364982
+101395,inv carr in ic rx,cos insurance,55.6243640095806
+107200,advances and deposits,cos insurance,40.9657523457947
+101670,accum dep ff,cos insurance,37.436172887116
+150250,acc amort deferred loan cost,cos insurance,40.1732167726633
+260650,discount on credit facility,cos insurance,20.6278874541215
+220351,pw fica taxes ee r,cos insurance,39.7738590998137
+150325,long term minimum lease payments receivable,cos insurance,39.2930179835728
+101509,sample gross accum sc,cos other,26.6600025335478
+101471,income tax receivable,cos insurance,35.730450538551
+230810,accrued royalty,cos insurance,36.9887999472908
+101770,accum dep hardware,cos insurance,28.4594069193325
+103975,inventory samples,cos insurance,32.8855965251739
+101395,inv carr in ic solu,cos other,41.8180404614797
+125400,accumulated depreciation automotive other transportation equipment,cos other costs,44.8191572368971
+120800,fixed asset clearing,cos insurance,49.496995958123
+101000,cash in bank citi dep hkd,cos other costs,48.3228541684305
+102751,deferred tax st liab,cos insurance,22.2520224798707
+150230,accumulated depreciation surgical loaner equip,cos other,41.8664801555895
+102360,def revenue chn su bf,cos insurance,43.9897878395524
+100322,dmblv deut eur,cos insurance,26.4615993986799
+100161,can citibank usd,cos insurance,38.9854399641908
+135500,accum amort product rights,cos insurance,48.5555288119556
+103845,finished goods in transit icmu,cos insurance,34.7497376010307
+250000,intercompany payables st,cos insurance,33.5902464502374
+242200,us state and local income taxes payable,cos other costs,27.6989127521315
+101400,accounts receivable clearing,cos insurance,39.297998826449
+242000,current income taxes payable,cos insurance,33.4992299086058
+101202,bad debt reserve ar,cos other,33.4857155032558
+102314,chgbk contprcgrsv pymtcy,cos insurance,30.6419352878032
+102304,sale dsc rsv inc pymtcy,cos insurance,49.7895429324095
+101451,prepaid expenses other,cos other,30.5315351150448
+230625,litigation reserves,cos insurance,38.4850972910263
+210015,tsa payable obagi,cos insurance,37.7043054325769
+103976,inventory samples manual,cos insurance,39.9924023522739
+125500,accumulated depreciation assets leased to others,cos insurance,45.6881928035165
+100011,cor citidirect world link,cos insurance,46.4683916211427
+106200,prepaid taxes,cos insurance,35.6401298231974
+102313,return reserve opening,cos other,48.0558334095109
+130701,ppa outlicensed technology,cos other,51.2193744203994
+220575,directors contributions,cos insurance,30.3792962653343
+100160,can citibank ap disbursements,cos insurance,47.4295825038163
+0014810104,packaging materials manual entry,cos insurance,41.6810728853834
+135651,ppaaccum amort prtnr relatnshps,cos insurance,55.4872089797963
+102270,accrued bonus non aicp,cos other al,42.3858463966604
+220600,pw pension,cos insurance,38.8210976058719
+210504,regional sales tax,cos insurance,39.4823626495462
+101660,furniture fixtures,cos insurance,50.5515087059356
+102340,gst on purchase,cos insurance,30.0699143900964
+230909,al medicaid rebates bta,cos insurance,47.3675993294296
+101940,other assets demo equip,cos insurance,43.8947973226339
+220506,pw life dependent,cos insurance,34.0642191947822
+106202,oca vat input r,cos other,26.4137906495821
+230907,al medicare part d,cos insurance,31.2665741429368
+0014590104,raw material manual,cos insurance,38.3322371846717
+0018300102,intangibles mfg agreement,cos insurance,40.2137135699689
+101810,accum dep lease asset,cos other,28.3447984138632
+220362,accrued er fica r,cos insurance,31.9831345681619
+102103,emp medical withholding,cos insurance,33.6363508963367
+0015500201,ar ic revaluation foreign exchange usd,cos insurance,22.5742648913095
+240000,dividends payable,cos other costs,28.3498868075258
+100193,elc hsbc usd account,cos insurance,18.2289948241449
+105600,capitalized manufacturing variances fifo,cos insurance,46.8799806744438
+105200,inventory provisions fg,cos other costs,30.2964239189843
+135550,accum amort product brands,cos insurance,50.2174498948992
+107000,non trade accounts receivable collectible,cos insurance,28.3730971472577
+102351,chgbk contprcgrsv begbal,cos insurance,36.4671622862556
+101779,accum depn hw us reportin,cos other costs,24.2431836379209
+100624,vpi cash payroll,cos insurance,38.7840014090143
+101500,prepaid postage,cos insurance,31.7938497819527
+230675,accrued insurance expense,cos insurance,49.2278794024811
+107300,receivables from officers and employees,cos insurance,35.3114642546338
+0010100102,petty cash,cos other costs,52.0735470768393
+0017700100,ad land improvement manual,cos insurance,50.9753248805935
+150235,accumulated depreciation surgical demo equip,cos insurance,50.8603576363034
+103304,finished goods loc,cos insurance,28.1920051469991
+103307,finished goods loc,cos insurance,29.7110693058427
+103118,inv wip pl uceris salix,cos other,45.8713396933243
+101800,leased asset to customer,cos insurance,28.2642435269047
+103927,inventory suspense other loc,cos insurance,30.0141716095776
+102754,deferred tax st liab,cos insurance,23.4298263941234
+104000,raw materials transfer price,cos insurance,39.7896354601215
+230881,sales returns reserve medicis,cos insurance,52.0975617174279
+0017200110,computer software manual,cos insurance,46.6970988173587
+180000,deferred income taxes us federal lt assets,cos insurance,34.548813833866
+100444,lux other,cos insurance,33.4954747966743
+102861,division control,cos insurance,26.3838462921956
+103308,finished goods loc,cos insurance,29.5960270944583
+101397,inv reval acc amor sc,cos insurance,25.2013461717926
+101770,accum dep software,cos insurance,38.2362301209919
+106450,prepaid royalties,cos insurance,37.7245037397457
+0025010104,gst payable,cos insurance,36.1929440638348
+220355,accrued fica expatriate,cos insurance,38.4332162547101
+220330,pw state monthly,cos other,40.6160706500697
+101800,lease asset to customers,cos insurance,32.1196532225933
+102870,acq equity holding,cos insurance,42.3570724231371
+230881,sales returns reserve medicis,cos insurance,50.5631124404138
+125305,accumulated depreciation computer hardware,cos insurance,46.8170073488134
+230750,accrued restructuring reserve current portion,cos insurance,49.0602111954515
+102360,deferred revenue su rel,cos insurance,54.1948889807403
+150800,other long term assets,cos insurance,55.3925842070001
+101710,accum dep machin equip,cos other costs,26.8931187585318
+270500,intercompany payables lt,cos other costs,32.0479244498802
+0015500200,inter company ar usd,cos insurance,22.5626931087495
+100163,vccp td cad,cos insurance,28.1853390157261
+103159,inventory wip pl dow,cos insurance,29.0612875716474
+294650,intercompany clearing,cos other costs,29.7493598479106
+0018300120,patents manual,cos insurance,33.2479106129258
+102272,accrued bonus,cos insurance,50.5778659085168
+101500,warranty replacement,cos insurance,27.6279206263781
+0014590111,standard revaluation inventory,cos insurance,37.5983044245501
+230880,sales returns reserve,cos other costs,45.3460774106184
+0014010102,fin prod ic purchased,cos insurance,31.7320124051854
+101504,ar other rebates,cos insurance,26.7785340134836
+130500,product rights,cos insurance,38.5681549869357
+103128,inventory wip pl hawkeye,cos insurance,33.7943735167464
+101831,accum dep long live asset,cos other other,24.9136231072424
+101000,trade accounts receivable gross,cos insurance,44.7978460095287
+102754,deferred income tax lt,cos other,33.5984285022939
+100207,no payroll tax nok,cos insurance,25.8668585852381
+230964,accrued return allowance,cos insurance,35.0191383372373
+290100,preferred stock,cos insurance,41.5251556916778
+102301,accrued li deferred rent,cos insurance,30.3215566621272
+100265,lab credit agricole eur,cos insurance,19.0176975549196
+145900,facility deposits long term,cos insurance,38.0210043771396
+230825,accrued freight out,cos other costs,27.2429306678878
+0014680101,packaging materials manual,cos other,34.4389329467343
+230959,accrued financing costs,cos insurance,46.5130078887507
+103131,inv wip pl osmoprep salix,cos insurance,34.8589775176921
+230805,accrued broker commissions,cos insurance,39.0276240029453
+260800,other long term debt,cos insurance,53.0110293804323
+280390,long term unearned lease income,cos insurance,32.1776473516491
+230050,accrued administration,cos insurance,35.2193798183658
+102101,accounts payable trade,cos insurance,26.9533426949257
+106300,prepaid marketing advertising promotions,cos other,24.3872129548376
+0017500101,ad building,cos insurance,54.290533611933
+102103,accrued liab pension cost,cos insurance,29.6228393036392
+102323,st year warr cat othadd,cos insurance,26.1292562176872
+106240,income taxes receivable,cos insurance,42.0455207034384
+101391,inv carr in lens,cos insurance,35.3085001140486
+230045,accrued legal expense,cos insurance,40.6052935612853
+103308,finished goods loc,cos insurance,30.4623823577079
+230060,accrued operations,cos insurance,34.2093118338621
+103700,raw materials in transit,cos insurance,39.3537769835032
+120150,leasehold improvements,cos insurance,35.1553837537583
+106150,prepaid leasing,cos insurance,38.443024290505
+160000,investments in subsidiaries,cos insurance,38.7698354483705
+170000,advances to subsidiaries lt,cos insurance,23.0722197799585
+100161,can citibank usd,cos insurance,41.7248874421638
+150227,surgical trial equipment,cos insurance,43.0268422346778
+250100,intercompany payables unvouchered inventory,cos insurance,36.9444154466725
+270010,advances from affil accr int,cos insurance,26.0011329471869
+101760,computer software,cos insurance,51.2309725888093
+107300,receivables from officers and employees,cos other costs,32.7979749858492
+102351,co op advert rsv begbal,cos insurance,48.6741244380143
+100158,vpii treas inv usd,cos insurance,24.4883595053865
+102839,capital in excess pdown,cos insurance,30.7090467380827
+0017500105,ad computer hardware,cos insurance,51.5832594810643
+130600,license agreements,cos insurance,23.275973654676
+103845,finished goods in transit icmu,cos insurance,35.2003925085503
+0018400120,amort patents man,cos insurance,40.0019849595894
+101507,other oca,cos insurance,37.2938684889227
+102302,sale dsc rsv provis,cos insurance,50.1921653634046
+100267,lab halkbank eur,cos insurance,32.2708305245159
+103842,inventory reval acc amort icmu,cos insurance,36.2101905214438
+103148,inventory wip pl anr,cos insurance,42.7429392536406
+102300,accured expense others,cos insurance,40.8659127333619
+104000,raw materials transfer price,cos insurance,40.9241868738016
+230550,other non income taxes payable,cos insurance,40.1099407681717
+120910,capital in process,cos insurance,31.9346679498941
+125100,accumulated depreciation buildings,cos insurance,37.3926907417817
+102471,local income tax payable,cos insurance,36.537919328136
+0017100107,machinery and equipment,cos insurance,40.7648121331584
+102380,accr restruc resrv open,cos insurance,22.5109005585096
+101781,transportation equipment,cos insurance,45.1718645502756
+180200,deferrred income taxes non us lt assets,cos other costs,19.7973838848952
+210501,regional sales tax,cos insurance,38.9789191691876
+103720,finished goods in transit,cos insurance,40.5208098800266
+102313,acc rebate su bf,cos other,44.233128610886
+135201,ppa accum amort trademarks,cos insurance,59.4467682697059
+103902,inventory suspense loc,cos insurance,27.3925461326592
+101180,early payment discount,cos insurance,25.6318629533591
+135700,accum amort outlicensed tech,cos other costs,41.3131116245749
+0016710150,other accrual areceivables,cos other costs,23.2534676836162
+101202,bad debt reserve ar,cos insurance,37.5074116185161
+210300,deposits and advance collections,cos insurance,46.8834102556158
+100132,vpii eur lt,cos insurance,25.9443317042196
+101850,acc depn demo provision,cos insurance,41.9828257041226
+101822,long lived assets,cos insurance,49.838674602026
+103110,wip bulk components,cos insurance,47.0182156754823
+103890,other inventory reserves icmu,cos other costs,27.6714961722025
+230010,accrued utilities electric,cos insurance,41.4008346890526
+101009,citibank mmda,cos insurance,47.9412722483588
+106400,prepaid interest,cos insurance,33.9940745591727
+220512,pw medical hmo,cos insurance,42.9075738100357
+230967,coverage gap accruals,cos insurance,38.5104323185382
+103720,finished goods in transit,cos insurance,38.973789080807
+102301,accrued li deferred rent,cos insurance,35.115156152407
+130551,ppa product brands,cos insurance,61.1007220151787
+294800,cumulative translation adjustment,cos other,18.3924915560196
+230000,accrued te vouchers payable,cos insurance,40.3397838359905
+0017200103,land manual,cos insurance,43.3366544181678
+0015500103,ic loan ar cad man,cos insurance,32.7673407829673
+240000,dividends payable,cos insurance,33.1053784584692
+103132,inv wip pl perrigo salix,cos other costs,28.0885715689283
+100215,fi handelsbanken eur,cos insurance,21.6798606707889
+106214,regional recoverable tax,cos insurance,40.2974355904613
+220340,pw state quarterly,cos insurance,39.6605967629646
+210410,trade payables abandoned property,cos insurance,42.8302976935258
+0014560104,rawm reserve,cos insurance,26.9421671648232
+10232B02,check,cos insurance,28.2281267046948
+102291,medical ins payable,cos insurance,27.8036038141218
+102101,accounts payable trade,cos other other,20.9755529034371
+260600,medium term notes payable principal,cos insurance,30.4330157671165
+102304,sale dsc rsv inc recnpy,cos insurance,47.1689660841454
+130501,ppa product rights,cos insurance,58.3533022181057
+102340,gst on sales,cos insurance,34.892483916046
+120310,computer software,cos insurance,52.9961684054498
+101010,"due to l' oreal contra ar account",cos insurance,25.1926885902699
+0010100101,cheques outstanding cad,cos insurance,38.2110802038155
+135601,ppa accum amort license agrmnts,cos insurance,60.1648632932857
+0017500100,ad land improvement,cos other costs,44.6401976977207
+101430,accounts receivable deduction outstanding,cos insurance,32.4974536715015
+220800,pw vacation,cos insurance,41.6149499768568
+101395,inv carr in ic sol,cos other,48.5880655600767
+222007,accrued benefits corporate disability,cos insurance,34.4025590793481
+100153,vcp cad td,cos insurance,30.6302491003263
+100262,lab citibank eur,cos insurance,36.9386686013019
+0021500113,accrued expense other,cos insurance,46.4299778614713
+230959,accrued financing costs,cos other al,45.8112221250057
+130800,other intangibles,cos other,21.8002951189768
+101395,frt in local lens,cos insurance,32.7263314902343
+230900,other accrued expenses,cos insurance,33.0081644554445
+103846,consigned stock icmu,cos insurance,29.8270568255234
+101381,duty cataract,cos insurance,23.9044853832903
+0028100100,contingent consideration short term,cos insurance,31.1261130598989
+0017600102,ad furn fix ppa,cos insurance,54.7747876934447
+242200,us state and local income taxes payable,cos other costs,28.0976947818248
+230041,accrued environmental fees,cos insurance,35.0623738141409
+101250,profit share receivable,cos insurance,25.1537103776714
+210501,regional sales tax,cos insurance,40.1184869931749
+104320,finished goods on consignment transfer price,cos insurance,40.6539718682652
+100440,operating account usd,cos insurance,18.5651116344144
+103117,inventory wip pl accupac,cos other costs,32.9158038056391
+102300,accrued expense rx,cos insurance,49.0535061718839
+230046,accrued audit expense,cos other,41.0927060667308
+0015500301,ar ic revaluation foreign exchange mxn,cos insurance,28.3467781233463
+101932,accum amor asset beg bal,cos insurance,23.8838853631178
+0015500100,inter company ar cad,cos other other,28.5778400311407
+294380,unrealized gainloss tax pens,cos insurance,20.5625450856337
+260655,discount on lt debt,cos insurance,24.116642373229
+0018580106,finished product samples ih production,cos insurance,17.3705472853609
+0021500102,accrued bonuses,cos insurance,37.2567160620489
+0031220199,grir manual posting,cos insurance,33.3515508908193
+259900,intercompany unbilled pending disposition,cos other,32.1165275832965
+101510,other receivable,cos insurance,37.9647515247567
+101678,accum depn me newco,cos insurance,45.6204562254426
+101395,inv carr in ic prp,cos other,44.3118740995791
+0021600100,accrued restructuring,cos insurance,49.9536213648921
+130101,ppa patents,cos other,57.131448766111
+295800,legal reserves,cos insurance,34.4236768697802
+106200,prepaid taxes,cos insurance,35.8271288056407
+101395,inv carr in ic lens,cos insurance,51.526642188407
+100170,uk citibank gbp,cos other other,49.3895598537937
+101450,bl m sdn bhd,cos other,31.2882164601619
+0044210100,additional paid in capital,cos insurance,32.5753557170563
+290050,capital stock common b,cos insurance,45.0428860598562
+102751,deferred income tax lt,cos insurance,36.3332788850444
+135651,ppaaccum amort prtnr relatnshps,cos insurance,54.0478259643479
+0011200100,ar trade miscellaneous,cos insurance,35.1656950018203
+241400,deferred income taxes non us st liability,cos insurance,34.6216585671563
+101828,lh improvement newco,cos insurance,41.101710771889
+102831,capitalin excess par value,cos other,21.546009392247
+230894,us pharma contract admin res,cos other,15.9342132532056
+107001,royalties receivable,cos insurance,39.8012213050364
+0014560101,raw materials,cos insurance,41.8560476139359
+101828,long lived asset us gaap,cos insurance,33.0175071255304
+103160,inventory wip pl pps,cos insurance,44.6502290516656
+103000,raw materials,cos insurance,40.6050248548781
+241400,deferred income taxes non us st liability,cos insurance,35.0679580524535
+150225,surgical loaner equipment,cos insurance,48.3142287488274
+101020,petty cash,cos insurance,55.6394266909517
+0014310103,formu semi fin prod ih pending shpmt to grp co,cos insurance,21.4859034930926
+101791,accumu dep trans equip,cos other costs,24.9881242426554
+103101,work in process loc,cos insurance,47.9284622954986
+230880,sales returns reserve,cos insurance,51.8193319923969
+101009,citibank foreign deposit,cos insurance,40.2106505872271
+102751,deferred income taxes lt,cos insurance,40.7715187017764
+102000,allowance for doubtful accounts trade receivables,cos other,50.2165751022532
+120500,assets leased to others,cos other costs,35.0043356184456
+0010100100,operating account cad,cos other al,25.6660918849802
+230805,accrued broker commissions,cos insurance,40.3471592067616
+150236,accumulated depreciation surgical trial equip,cos insurance,31.087107123048
+0017300102,mach equip ppa,cos insurance,61.8012675518784
+105000,other inventory reserves,cos insurance,26.5572945965687
+103306,finished goods loc,cos insurance,31.3336680537717
+150226,surgical demo equipment,cos insurance,51.700596072939
+150330,allowance for uncollectible long term lease payments,cos insurance,37.443159701403
+100132,vpii eur lt,cos insurance,26.7733675123088
+230070,accrued marketing,cos insurance,47.6665571417286
+101930,acc amort ia bf us gaap,cos insurance,34.9608560284927
+222000,accrued benefits medical active,cos insurance,45.5579534945653
+10138B00,freight in solta,cos insurance,56.1696623967464
+295000,retained earnings,cos insurance,44.256737064038
+103721,finished goods in transit loc,cos insurance,37.7309079673042
+106500,prepaid other,cos insurance,38.4853350492057
+295000,retained earnings,cos insurance,44.3470572763623
+103106,work in process loc,cos insurance,48.7607796151812
+101460,demo equipment beg,cos insurance,42.3936438211493
+102000,allowance for doubtful accounts trade receivables,cos insurance,53.5868590819825
+103020,raw materials on consignment,cos insurance,35.4392345118552
+101440,current minimum lease payments receivable,cos insurance,35.5556189932175
+102270,accrued bonus th month,cos insurance,44.2182117006632
+103600,other inventory,cos other costs,30.9844791965884
+150236,accumulated depreciation surgical trial equip,cos other costs,34.3821162292873
+220825,pw united way,cos insurance,35.7430496700165
+222040,accrued benefits excess pension plan,cos insurance,33.2645631950183
+0017300124,fixed assets manual me,cos insurance,45.0904185181288
+103000,raw materials,cos insurance,40.939955799523
+103843,other inventory icmu,cos insurance,23.2256135847653
+101395,frt in local sol,cos insurance,33.7628527085729
+295100,acquistion equity holding,cos insurance,58.779510718406
+101200,reserve for bad debts,cos insurance,39.2646655544539
+103149,inventory wip pl denison,cos other costs,26.8947605393078
+230045,accrued legal expense,cos other al,38.8910467415693
+103152,inventory wip pl ei obagi,cos insurance,35.2961224752704
+100154,vcp usd td,cos insurance,38.5095086114525
+101395,inv carr in ic cat,cos insurance,54.0177530760921
+102314,sale dsc rsv provis,cos insurance,50.0296338524661
+230841,deferred revenue for goods on consignment,cos insurance,40.7458164112303
+103600,other inventory,cos insurance,35.3064386192963
+103302,finished goods loc,cos insurance,31.1321940009167
+230354,accr liab vat payable r,cos insurance,38.4371067886764
+220330,pw state monthly,cos insurance,47.1678391116706
+101210,allow uncoll curr lease p,cos insurance,25.4597064892172
+100624,vpi cash payroll,cos insurance,39.4653746359034
+102300,accured expense others,cos insurance,40.8261464111222
+103722,finished goods in transit loc,cos insurance,40.167375977444
+100210,dk handelsbanken dkk,cos insurance,41.3594291602627
+230365,accr liab vat clearing r,cos insurance,26.0308287637113
+120500,assets leased to others,cos insurance,38.9157436542055
+102103,payroll wholding emp ins,cos insurance,32.1758029312867
+130200,trademarks,cos insurance,41.2194149786913
+106215,gst collectible,cos insurance,43.5346561902539
+230861,accr st trade volume discounts,cos insurance,34.8452891172861
+102681,aro liability prior yr,cos other,32.1479501416497
+103321,fg on consignment walgreens,cos insurance,28.5973608073148
+0014810101,packaging materials,cos insurance,39.7380737749673
